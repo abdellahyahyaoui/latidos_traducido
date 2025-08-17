@@ -2,13 +2,13 @@
   {
     "id": 11,
     "nombre": "Anas Jamal Mahmoud Al-Sharif      💚المرحوم💚",
-    "fragmento": "Les encomiendo Palestina, la joya de la corona de los musulmanes, y el latido del corazón de todo ser libre.",
-    "titulo": "Mi testamento ",
-    "description": "«Si yo me callara, ¿quién sería la voz de estas mujeres y estos niños?» ¿Así respondió Anas a un amigo cuando le pidió que velara por su seguridad.\n\nAnas Al-Sharif, periodista palestino, falleció el 10 de agosto cumpliendo con su deber, junto a sus compañeros Muhammad Qeriqaa, Ibrahim Zahir y Mohamed Nofal. Su voz, que nunca se rindió ante el asedio y la ocupación, deja un legado de verdad y dignidad.",
+    "fragmento": "Les encomiendo Palestina, la joya de la corona de los musulmanes y el latido del corazón de todo ser libre.",
+    "titulo": "Mi testamento",
+    "description": "«Si yo me callara, ¿quién sería la voz de estas mujeres y estos niños?» Así respondió Anas a un amigo cuando le pidió que velara por su seguridad.\n\nAnas Al-Sharif, periodista palestino, falleció el 10 de agosto cumpliendo con su deber, junto a sus compañeros Muhammad Qeriqaa, Ibrahim Zahir y Mohamed Nofal. Su voz, que nunca se rindió ante el asedio y la ocupación, deja un legado de verdad y dignidad.",
     "image": "/imagenes/anas.png",
     "parts": [
       {
-        "title": "Mi testamento ",
+        "title": "Mi testamento",
         "especial": true,
         "pages": [
           {
@@ -19,8 +19,8 @@
               "Este es mi testamento, mi última carta.",
               "Si estas palabras llegan a ustedes,",
               "sepan que Israel ha logrado matarme y silenciar mi voz.",
-              "Ante todo, la paz, la misericordia y las bendiciones de Allah estén con ustedes.",
-              "Allah sabe que puse todo mi esfuerzo y mi fuerza,",
+              "Ante todo, que la paz, la misericordia y las bendiciones de Allah estén con ustedes.",
+              "Allah sabe que puse todo mi esfuerzo y mi fuerza",
               "para ser un apoyo y una voz para mi pueblo,",
               "desde que abrí los ojos a la vida",
               "en los callejones y barrios del campamento de refugiados de Yabalia.",
@@ -31,7 +31,7 @@
               "y Su decreto se cumplió.",
               "Viví el dolor en todos sus detalles,",
               "probé la pérdida y el sufrimiento muchas veces,",
-              "y, a pesar de ello, nunca dejé de transmitir la verdad tal cual es,",
+              "y, a pesar de ello, nunca dejé de transmitir la verdad tal como es,",
               "sin distorsión ni falsificación.",
               "Tal vez Allah sea testigo",
               "de quienes callaron y de quienes aceptaron que nos mataran,",
@@ -109,17 +109,17 @@
             "video": "/videos/almarhoum.mp4",
             "texto": [
               "Tenía talladas en mi pecho",
-              ".\"سبحانه وتعالى\"  ﷻlas palabras de Allah ",
-              "\"En verdad,los creyentes son hermanos\".",
-              "Pero no comprendí su esencia,",
+              "las palabras de Allah ﷻ سبحانه وتعالى:",
+              "\"En verdad, los creyentes son hermanos\".",
+              "Pero no comprendí su esencia",
               "hasta sentir en mi alma la herida de tu ausencia.",
               "Lloro,",
               "y no sé si mi llanto",
               "es por ti o por mí.",
-              "Tú eres el mártir. ",
+              "Tú eres el mártir,",
               "y todos nosotros meros espectadores.",
-              "Tú estás vivo junto a tu Creador.",
-              "Y nosotros,",
+              "Tú estás vivo junto a tu Creador,",
+              "y nosotros,",
               "simples moribundos vagando sin rumbo por Su tierra.",
               "Querido hermano,",
               "nos has iluminado el camino",
@@ -128,73 +128,63 @@
               "y no nos desviaremos de ella,",
               "hasta que los cobardes paguen y la sangre de los mártires sea vengada.",
               "No nos rendiremos.",
-              " . \"إِنَّا لِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ , رحمك الله و أسكنك فسيح جناته \"",
-              "\"De Allah Allah ﷻ.npm venimos y a Él retornamos.\"",
-              "\"Que Allah Allah ﷻ. te bendiga y te mantenga en Su misericordia.\""
+              "إِنَّا لِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ، رحمك الله وأسكنك فسيح جناته",
+              "\"De Allah venimos y a Él retornamos.\"",
+              "\"Que Allah ﷻ te bendiga y te conceda Su amplia misericordia.\""
             ]
           },
           {
             "tipo": "imagen",
             "src": "/imagenes/anas2.jpg",
             "alt": "Imagen final del capítulo"
-           
           },
           {
             "tipo": "imagen",
             "src": "/imagenes/chohada2.png",
             "alt": "Imagen final del capítulo",
-            "caption": [
-              
-            ]
+            "caption": []
           },
           {
             "tipo": "imagen",
             "src": "/imagenes/chahid1.jpg",
             "alt": "Imagen final del capítulo"
-           
           },
           {
             "tipo": "imagen",
             "src": "/imagenes/chahid2.jpg",
             "alt": "Imagen final del capítulo"
-           
-          },{
+          },
+          {
             "tipo": "imagen",
             "src": "/imagenes/chahid3.jpg",
             "alt": "Imagen final del capítulo"
-           
           },
           {
             "tipo": "imagen",
             "src": "/imagenes/chahid4.jpg",
             "alt": "Imagen final del capítulo"
-           
           },
           {
             "tipo": "imagen",
             "src": "/imagenes/chahid5.jpg",
             "alt": "Imagen final del capítulo"
-           
           },
           {
             "tipo": "imagen",
             "src": "/imagenes/chahid6.jpg",
             "alt": "Imagen final del capítulo"
-           
           }
         ]
       }
-      
-        ]
-      }
-    ,
+    ]
+  },
   {
     "id": 3,
     "nombre": "Khaled Abu Huwaishel",
     "fragmento": "La lluvia golpeaba el tejado mientras escribía estas líneas. Cada gota era un recuerdo, cada palabra una promesa de resistencia...",
     "titulo": "Khaled Youssef",
     "image": "/imagenes/Khaled_Abu_Huwaishel.jpg",
-    "description": "'Si nos quitan la pluma, la roca se habrá roto..' Khaled Youssef no es solo un nombre; es la voz de un padre, un hijo, un marido… pero, sobre todo, de un hombre que lucha por sobrevivir con dignidad. En este poderoso relato desde Gaza, nos muestra cómo el hambre no solo destruye cuerpos, sino también esperanzas. Un testimonio real que merece ser escuchado.",
+    "description": "'Si nos quitan la pluma, la roca se habrá roto...' Khaled Youssef no es solo un nombre; es la voz de un padre, un hijo, un marido… pero, sobre todo, de un hombre que lucha por sobrevivir con dignidad. En este poderoso relato desde Gaza, nos muestra cómo el hambre no solo destruye cuerpos, sino también esperanzas. Un testimonio real que merece ser escuchado.",
     "social": {
       "instagram": "https://www.instagram.com/khaled_1.y?igsh=Mzc5eGtvMmhtcTdk",
       "telegram": "https://t.me/Journalist_Khaled_from_Gaza",
@@ -202,7 +192,7 @@
     },
     "parts": [
       {
-        "title": "Papá, ¿hay comida en el cielo ?",
+        "title": "Papá, ¿hay comida en el cielo?",
         "content": [
           "",
           "En un rincón de una casa medio en ruinas, Adam, de siete años, estaba sentado,",
@@ -252,7 +242,7 @@
           "alegría…",
           "sino de hambre, mareos, dolor y agotamiento.",
           "Tienen los ojos hundidos, los pies apenas los sostienen, y sus corazones laten con fuerza, no por la",
-          "vida, sino por resistir un poco a la muerte.",
+          "vida, sino por resistir un poco más a la muerte.",
           "Las salas de urgencias de los hospitales están llenas de cuerpos demacrados, ancianos, jóvenes y",
           "niños cuyo único delito es haber nacido aquí.",
           "Los informes médicos hablan de un «grave deterioro nutricional», pero la realidad es peor que",
@@ -397,7 +387,7 @@
         ]
       },
       {
-        "title": " Déjennos morir de hambre.",
+        "title": "Déjennos morir de hambre",
         "content": [
           "",
           "En Gaza, la muerte ya no es una noticia sorprendente.",
@@ -413,8 +403,8 @@
           "surge el grito del corazón de un niño,",
           "de la boca de una madre agotada por el hambre,",
           "que intenta ocultar un trozo de pan de la mirada de sus hijos:",
-          "“Si no pueden detener la guerra contra nosotros,",
-          "no nos maten de hambre... Déjennos morir de hambre.”",
+          "'Si no pueden detener la guerra contra nosotros,",
+          "no nos maten de hambre... Déjennos morir dignamente.'",
           "Estas no son palabras vanas.",
           "Son un llamado a la conciencia del mundo.",
           "No pedimos lo imposible.",
@@ -422,7 +412,7 @@
           "aunque su silencio nos esté matando.",
           "Simplemente les pedimos que no nos maten dos veces:",
           "una con bombardeos",
-          "y otra con hambre.",
+          "\"y otra con hambre.\",",
           "En Gaza, ya no hay harina.",
           "No hay agua potable.",
           "Ni leche para lactantes.",
@@ -445,12 +435,12 @@
           "y vacías declaraciones de condena?",
           "A quienes tienen la decisión.",
           "A quienes escriben los titulares.",
-          "A quienes hablan de “legitimidad”,",
-          "“disuasión” y “derecho a la defensa”:",
+          "A quienes hablan de 'legitimidad',",
+          "'disuasión' y 'derecho a la defensa':",
           "Somos seres humanos.",
           "Estamos vivos.",
           "Comemos, dormimos, soñamos y amamos,",
-          "como toda la creación de Allah .",
+          "como toda la creación de Allah ﷻ.",
           "Si no puedes detener este infierno,",
           "al menos no nos prives",
           "de un bocado digno de un fin humano.",
@@ -473,16 +463,16 @@
           "Desde el comienzo de esta guerra,",
           "se han alzado voces en España, Francia, Gran Bretaña, Alemania y Estados Unidos,",
           "y se han izado banderas palestinas en las calles europeas,",
-          "coreando: “¡Levanten el asedio a Gaza!”.",
+          "coreando: '¡Levanten el asedio a Gaza!'.",
           "Hombres y mujeres jóvenes que no hablan nuestro idioma",
           "ni han vivido con nosotros,",
-          "pero que vieron la injusticia y dijeron: “No”.",
+          "pero que vieron la injusticia y dijeron: 'No'.",
           "En cuanto a ustedes, nuestros hermanos árabes,",
           "nuestra gente en Egipto, Jordania, Kuwait, los Emiratos,",
           "Arabia Saudita, Marruecos, Túnez y todos los demás países:",
           "¿Dónde están?",
           "Tenemos hambre.",
-          "Sin medicinas, sin agua, sin electricidad.",
+          "\"Sin medicinas, sin agua, sin electricidad.\",",
           "Buscamos restos de comida.",
           "Vendamos nuestras heridas con sábanas mojadas.",
           "Enterramos a nuestros hijos con nuestras propias manos,",
@@ -520,7 +510,7 @@
           "Que actúen.",
           "Que alcen la voz.",
           "Que presionen.",
-          "Que digan: “¡Basta!”.",
+          "Que digan: '¡Basta!''.",
           "Gaza no quiere declaraciones de condena,",
           "ni conferencias, ni hashtags.",
           "Gaza quiere vivir.",
@@ -532,7 +522,7 @@
         ]
       },
       {
-        "title": "solo son Huérfanos..!",
+        "title": "Solo son huérfanos..!",
         "content": [
           "",
           "Ayuden a los huérfanos... No tienen nada en la vida más que sus lágrimas.",
@@ -559,7 +549,7 @@
           "la diferencia y devolverles la vida que merecen.",
           "No hace falta ser rico para ayudar a un huérfano; basta con tener un corazón compasivo.",
           "Ayúdenlos con dinero si pueden, con palabras, con oraciones, con apoyo, creando oportunidades para ellos, enseñándoles y acogiéndolos.",
-          "No dejes que se pierdan en las calles, que sean explotados laboralmente ni que crezcan en el dolor",
+          "No dejen que se pierdan en las calles, que sean explotados laboralmente ni que crezcan en el dolor",
           "de la soledad.",
           "Los huérfanos no tienen la culpa.",
           "No eligieron nacer en la guerra ni pidieron perder a sus padres, pero ahora nos necesitan.",
@@ -567,14 +557,14 @@
           "Seamos el reemplazo...",
           "Sé el reemplazo de una madre que falleció, sé el padre que perdieron y sé el apoyo que",
           "nunca traiciona.",
-          "Extiende tu mano a un huérfano, no para concederle favores, sino para agradecerle por devolverle su humanidad.",
+          "Extiende tu mano a un huérfano, no para concederle favores, sino para agradecerle por devolverte tu humanidad.",
           "Ayuda a los huérfanos... son una responsabilidad.",
           "Ayúdalos... sus oraciones no son rechazadas.",
           "Ayúdalos... tu mano puede ser la razón de una nueva vida escrita para ellos."
         ]
       },
       {
-        "title": " sionistas ",
+        "title": "Sionistas",
         "content": [
           "Desde el surgimiento del proyecto sionista",
           "a finales del siglo XIX,",
@@ -669,7 +659,7 @@
           "en un lugar donde no hay pérdida.",
           "Hasta entonces...",
           "caminamos con dolor,",
-          "pero no camina solo con nosotros."
+          "pero no caminamos solos."
         ]
       },
       {
@@ -710,7 +700,6 @@
           "Por mi parte, seguiré escribiendo para que tu voz no se apague contigo. 💔"
         ]
       }
-      
     ]
   },
   {
@@ -755,7 +744,7 @@
         "title": "La patria pertenece a su gente",
         "content": [
           "",
-          "Nuestras vidas cambiaron,",
+          "Nuestras vidas cambiaron",
           "desde que comenzó la guerra de exterminio contra nuestro pueblo.",
           "La humanidad cambió.",
           "La vida se volvió extraña.",
@@ -766,7 +755,7 @@
           "La vida se desperdicia.",
           "Los años pasan.",
           "Y se nos acaba el tiempo.",
-          "Estábamos convencidos,",
+          "Estábamos convencidos",
           "de que éramos el mejor pueblo sobre la Tierra.",
           "Creíamos tener lo que nadie más tenía:",
           "fe,",
@@ -776,7 +765,7 @@
           "afecto,",
           "respeto,",
           "y dignidad.",
-          "Nos sentíamos profundamente orgullosos,",
+          "Nos sentíamos profundamente orgullosos",
           "de la nobleza y entereza del pueblo palestino,",
           "conocido por su firmeza,",
           "su generosidad,",
@@ -846,10 +835,10 @@
           "cuando escribió:",
           "«...y siento por ellos lo mismo que siento por Palestina».",
           "Y al final:",
-          "Fuimos lo suficientemente palestinos,",
+          "Fuimos lo suficientemente palestinos",
           "como para rechazarlos a todos,",
           "en Gaza la Resquebrajada.",
-          "Estamos Solos."
+          "Estamos solos."
         ]
       },
       {
@@ -889,7 +878,7 @@
           "Aquí, la hambruna no es noticia urgente.",
           "El hambre de los niños no es una crisis humanitaria,",
           "sino una vergüenza grabada en la frente del mundo.",
-          "La humanidad falló,",
+          "La humanidad falló",
           "cuando permitió que los niños de Gaza pasaran hambre.",
           "Aun así, Gaza merece vivir.",
           "Gaza será libre,",
@@ -995,7 +984,7 @@
         ]
       },
       {
-        "title": "Un hogar de tela ",
+        "title": "Un hogar de tela",
         "content": [
           "",
           "Desde el siete de octubre, comenzó la historia de la injusticia, del genocidio y de la guerra.",
@@ -1068,7 +1057,7 @@
           "",
           "Los bombardeos continúan en todas partes...",
           "",
-          "Las aviones de guerra y de reconocimiento vuelan sin descanso sobre los cielos de Gaza.",
+          "Los aviones de guerra y de reconocimiento vuelan sin descanso sobre los cielos de Gaza.",
           "",
           "Los buques de guerra siguen bombardeando a pescadores y zonas costeras...",
           "",
@@ -1120,7 +1109,7 @@
           "Soporta el dolor con sangre, sembrando paciencia en su tierra ardiente.",
           "",
           "¿Dónde están ustedes, los que se enorgullecen de los derechos humanos?",
-          "¿Dónde está la humanidad cuando matar inocentes se llama “defensa propia”?",
+          "¿Dónde está la humanidad cuando matar inocentes se llama 'defensa propia'?",
           "",
           "¡Qué vergüenza para este mundo sin escrúpulos!",
           "Un mundo que observa las masacres con indiferencia, aplaude a los asesinos y silencia las voces de las",
@@ -1145,8 +1134,9 @@
           "Quizás nos dejemos ir, y lo que parecía imposible de repente se haga realidad, pero en circunstancias muy",
           "distintas.",
           "El cartero no llegará en medio de estos bombardeos y destrucción.",
-          "Los periódicos solo repetirán la misma noticia día tras día: “Gaza está siendo aniquilada. La vida se desvanece",
-          "sin un nuevo amanecer.”",
+          "Los periódicos solo repetirán la misma noticia día tras día: 'Gaza está siendo aniquilada. La vida se desvanece'",
+          "sin un nuevo amanecer.",
+          "",
           "Quizás la noticia de mi muerte salga en la próxima edición.",
           "Esto es lo que pensé mientras me alejaba de este mundo, con los bombardeos intensificándose y las declaraciones",
           "sobre la ocupación de Gaza multiplicándose.",
@@ -1283,221 +1273,216 @@
           "y somos hijos de Dios en su tierra atormentada."
         ]
       }
-      
     ]
   },
   {
-  "id": 9,
-  "nombre": "Faten Mofeed",
-  "fragmento": "Soy Faten, madre en Gaza. No busco lástima: pido justicia y vida para mis hijos.",
-  "titulo": "Solo quiero vida",
-  "image": "/imagenes/faten.jpg",
-  "description": "Faten, madre palestina, narra con voz quebrada su recorrido entre guerras, desplazamientos y pérdidas. Desde 2014 hasta hoy, ha visto su hogar destruido varias veces, ha perdido familiares y ha sobrevivido junto a sus tres hijos. En medio de la destrucción, suplica justicia, pan y una vida digna para ellos.",
-  "social": {
-      
+    "id": 9,
+    "nombre": "Faten Mofeed",
+    "fragmento": "Soy Faten, madre en Gaza. No busco lástima: pido justicia y vida para mis hijos.",
+    "titulo": "Solo quiero vida",
+    "image": "/imagenes/faten.jpg",
+    "description": "Faten, madre palestina, narra con voz quebrada su recorrido entre guerras, desplazamientos y pérdidas. Desde 2014 hasta hoy, ha visto su hogar destruido varias veces, ha perdido familiares y ha sobrevivido junto a sus tres hijos. En medio de la destrucción, suplica justicia, pan y una vida digna para ellos.",
+    "social": {
       "donation": "https://gofund.me/394beb01"
     },
-  "parts": [
-   {
-  "title": "Tan Solo quiero vivir",
-  "content": [
-    "En el año 2014, comenzó una guerra en Gaza.",
-    "Una noche, bombardearon nuestra casa.",
-    "No pensé en nada, solo tomé a Yazan en brazos y huí.",
-    "Perdimos nuestro hogar, pero sobrevivimos.",
-    "Vendimos todo lo que teníamos y compramos una casa en el centro de Gaza,",
-    "creyendo que allí estaríamos más seguros.",
-    "💔 7 de octubre de 2023: Todo cambió",
-    "El 7 de octubre de 2023, a las 6:25 de la mañana, preparaba el desayuno para mis hijos",
-    "y los alistaba para la escuela.",
-    "Estaban en la puerta cuando… explosiones estremecieron todo.",
-    "Nos quedamos en silencio por el miedo.",
-    "Los abracé fuerte y corrimos a nuestra habitación.",
-    "Era verano, pero sentimos un frío terrible… el frío del miedo.",
-    "Recibí en mi casa a familiares que huían de Shuja'iyya.",
-    "Pensé que estarían a salvo.",
-    "Pero no fue así.",
-    "Una semana después, las fuerzas de ocupación ordenaron evacuar la zona.",
-    "Después de pensarlo mucho, decidimos ir al sur, por nuestros hijos.",
-    "🧳 El desplazamiento… sin seguridad",
-    "Nos fuimos a Rafah, a casa de unos amigos.",
-    "Pero ni ahí estábamos a salvo.",
-    "Una casa cercana fue bombardeada.",
-    "Mi hermana y su hijo resultaron heridos.",
-    "Otro día, una explosión cercana nos dejó bajo los escombros.",
-    "Era como el Día del Juicio.",
-    "Grité los nombres de mis hijos, pero nadie respondió.",
-    "Estábamos todos sepultados.",
-    "Después de horas, los equipos de rescate nos sacaron… heridos, pero vivos.",
-    "⚰️ Pérdidas que no terminan",
-    "La tragedia no terminó.",
-    "Perdí a primos, sus esposas, sus hijos.",
-    "Asesinaron a sangre fría al Dr. Rifat Al-Ara’ir, creador de la campaña “No somos solo números”.",
-    "Perdí también a mi tía, sus hijas y sus hijos… todos.",
-    "Nuestros corazones se rompieron.",
-    "🏚️ Vivir en una tienda de campaña",
-    "Cuando las fuerzas israelíes entraron a Rafah, no nos permitieron regresar a nuestra casa.",
-    "Huimos a Deir al-Balah, y vivimos en una tienda pequeña y rota, sin agua,",
-    "sin electricidad, sin nada.",
-    "Dormíamos en el suelo.",
-    "Llorábamos.",
-    "Vivíamos de la caridad, esperando pan o un poco de agua.",
-    "🕊️ Una tregua… y un regreso entre ruinas",
-    "En enero de 2025, se anunció una tregua de 60 días.",
-    "Decidí volver con mis hijos a nuestro hogar en Shuja'iyya.",
-    "Caminamos a pie.",
-    "Cada paso era nostalgia y esperanza.",
-    "Llegamos… pero no estaba el barrio.",
-    "Solo ruinas y cenizas.",
-    "Mi casa estaba quemada, sin puerta, sin techo.",
-    "Pero la limpié, la arreglé como pude… y me quedé,",
-    "porque era lo único que teníamos.",
-    "💣 El regreso de la guerra… y del hambre",
-    "La tregua terminó.",
-    "Volvió la guerra, más cruel.",
-    "Lana enfermó de desnutrición.",
-    "Yazan volvió a tener crisis respiratorias.",
-    "Mohammed ya no puede dormir del miedo.",
-    "Todos tenemos hambre, no hay medicinas, ni comida, ni esperanza.",
-    "Queremos pan.",
-    "Queremos que nuestros hijos vayan a la escuela, no a las tumbas.",
-    "🙏 ¿Acaso alguien me escucha?",
-    "Soy una madre palestina.",
-    "No busco lástima, busco justicia.",
-    "Salven a nuestros hijos.",
-    "Escuchen nuestra voz.",
-    "No dejen sola a Gaza.",
-    "No permitan que más madres saquen a sus hijos de los escombros.",
-    "💔 El momento más doloroso",
-    "En un momento que jamás olvidaré, vi a mis tres hijos siendo sacados de los escombros…",
-    "Yazan, Lana y Mohammed.",
-    "¿Qué madre puede soportar ver a sus hijos así?",
-    "Los saqué uno por uno…",
-    "Lloré, grité…",
-    "Y luego recé: “Gracias, Allah ﷻ, porque siguen vivos”.",
-    "🕯️ Soy Faten… solo quiero vida",
-    "Soy Faten, de Gaza.",
-    "No pido mucho.",
-    "Solo una vida digna para mis hijos."
-  ]
-},
-{
-  "title": "Lana",
-  "especial": true,
-  "pages": [
-    {
-      "tipo": "texto",
-      "content": [
-        "💔 La historia de Lana — la niña que la guerra traicionó (en voz de su madre)",
-        "Lana, mi niña hermosa, nació en 2015 en el corazón del barrio Al-Rimal, en Gaza.",
-        "Era la consentida de la familia, la única hija después de años de espera.",
-        "Todos la adoraban, y cualquier cosa que pedía, se la dábamos sin pensarlo.",
-        "No solo por ser la más pequeña, sino porque era realmente un angelito entre nosotros.",
-        "Lana creció entre sonidos de aviones, bombas y sirenas.",
-        "Nunca conoció una infancia normal.",
-        "Cada guerra que pasaba le dejaba una herida silenciosa por dentro.",
-        "Mi hija no lloraba fuerte... se acurrucaba, temblaba, cerraba los ojos y esperaba que el ruido terminara.",
-        "Tiene fobia a los ruidos fuertes.",
-        "Incluso el sonido del viento o los truenos todavía la asustan mucho.",
-        "Lana ama dibujar.",
-        "Ama los colores.",
-        "Podía convertir cualquier hoja en alegría.",
-        "Era excelente en la escuela, le apasionaba aprender, y esperaba con ansias su clase de arte...",
-        "Preparaba sus colores desde la noche anterior y me decía:",
-        "“Mamá, ¡mañana les voy a enseñar mi dibujo!”",
-        "Pero la última guerra... lo destruyó todo.",
-        "Nuestra casa se quemó.",
-        "Su escuela fue bombardeada.",
-        "Nuestro coche, que la llevaba todos los días al cole, desapareció.",
-        "Mi hija salió de debajo de los escombros, con heridas, con miedo,",
-        "y con ojos que no entendían por qué todo desapareció de golpe.",
-        "Y aun así... intentaba sonreírme.",
-        "Me abrazaba y me decía:",
-        "“Mamá, no pasa nada”, como si ella fuera la madre y yo la hija.",
-        "Me pide una hamburguesa... le digo \"inshallah\".",
-        "Me pide un cuaderno para dibujar... le digo “pronto”.",
-        "Y se duerme agarrada de mi mano, con miedo de que la noche la escuche."
-      ]
-    },
-    {
-      "tipo": "videoTexto",
-      "video": "/videos/faten.mp4",
-      "texto": [
-        "Soy \"madre\", y cada día veo cómo mi hija se apaga...",
-        "no solo por la guerra, sino por la ausencia de vida.",
-        "Cuento su historia no solo para compartir nuestro dolor,",
-        "sino por si alguien puede devolverle una parte de lo que perdió:",
-        "un cuaderno, un poco de calor, un color, un momento de \"paz\".",
-        "Todo lo que Lana tenía, ahora es un recuerdo.",
-        "\"Pero su esperanza... aún no se ha apagado\"."
-      ]
-    }
-  ]
-},
-{
-  "title": " Ayer rompí  mi silencio",
-  "content": [
-    "Soy de esas personas que casi no salen de casa, no solo por la guerra…",
-    "El miedo, los bombardeos, el dolor… todo me empujó a quedarme entre las paredes de mi hogar.",
-    "Pero ayer, me sentía ahogada.",
-    "Decidí salir con mis hijos, caminar un poco, cambiar el aire… quizá escapar por unos minutos de esta realidad.",
-    "Mis pasos me llevaron por calles que ya no parecen calles,",
-    "Destrucción por todos lados, escombros que habitan cada rincón.",
-    "Gaza hoy… es una ciudad que camina sobre su propio corazón.",
-    "Vimos a la gente, mucha gente…",
-    "Personas caminando con miradas vacías,",
-    "Personas sentadas en las aceras, escapando del infierno de las tiendas de campaña,",
-    "Gente cargando agua, buscando comida con ollas vacías,",
-    "Rostros tristes… corazones llorando en silencio.",
-    "Escenas que, tristemente… ya se han vuelto \"normales\".",
-    "Pero en un instante…",
-    "Una escena me detuvo, me rompió el alma, y sembró en mí un dolor nuevo.",
-    "Vi a un hombre… bien vestido, con apariencia educada, respetable.",
-    "Caminaba tranquilo, de repente gritó con una voz que estremeció la calle:",
-    "“¿Quién soy? ¿Quién soy yo?”",
-    "“¡Gente, ¿quién soy?!”",
-    "Y luego dijo: “¡Mi padre ha muerto! ¡Mi padre ha muerto!”",
-    "Llamaba por teléfono, lo repetía una y otra vez, golpeándose la cabeza,",
-    "gritando desde lo más profundo de su corazón.",
-    "Esa escena me quebró. Lloré con el alma.",
-    "Me pregunté: ¿Qué nos ha pasado? ¿Qué le ha pasado a mi pueblo? ¿A nuestra dignidad?",
-    "Caminé un poco más…",
-    "Vi a una anciana sentada frente a su tienda de campaña, hablando sola en voz alta:",
-    "“Cambiaste, oh país… todo cambió… no tengo para comprar comida… ni siquiera tengo pan…”",
-    "La miré, y mis ojos se inundaron de lágrimas.",
-    "No podía ayudarla, no tenía pan, ni dinero…",
-    "Solo tenía un corazón roto y una impotencia que me ahogaba.",
-    "Decidí volver de inmediato a casa,",
-    "Tomar a mis hijos de la mano y huir de tanto dolor…",
-    "Ya no tenía fuerza para ver otra escena,",
-    "Mi corazón no soportaba otra lágrima…",
-    "En el camino, Lana y Muhammad vieron a un vendedor de uvas.",
-    "Yo no lo vi, estaba perdida en mi tristeza,",
-    "Pero ellos gritaron:",
-    "“¡Mamá, por favor! ¡Tenemos antojo! ¡Hace mucho que no comemos uvas!”",
-    "Mi corazón se rompió, no tenía dinero para comprar…",
-    "Pero les prometí que algún día lo haría…",
-    "Regresé a casa sintiendo que llevaba el mundo sobre mis hombros,",
-    "Lloré por el hombre, por la anciana, por mis hijos…",
-    "Y tomé una decisión: no volveré a salir de mi casa.",
-    "No porque sea débil,",
-    "Sino porque mi corazón está frágil,",
-    "Y cada esquina de la ciudad es una herida que no sana.",
-    "---",
-    "Oh Allah ﷻ…",
-    "No pedimos mucho. Solo seguridad. Solo pan. Solo un abrazo para nuestros hijos.",
-    "No queremos más que vivir con dignidad, sin temblar ante un grito,",
-    "sin llorar de impotencia, sin rompernos por no tener para un racimo de uvas.",
-    "Desde Gaza… desde el corazón de una madre, les escribo,",
-    "con la esperanza de que mis palabras lleguen a un corazón compasivo,",
-    "que encienda una vela en medio de esta larga oscuridad."
-  ]
-}
-
-
-
-  ]}
-,
+    "parts": [
+      {
+        "title": "Tan Solo quiero vivir",
+        "content": [
+          "En el año 2014, comenzó una guerra en Gaza.",
+          "Una noche, bombardearon nuestra casa.",
+          "No pensé en nada, solo tomé a Yazan en brazos y huí.",
+          "Perdimos nuestro hogar, pero sobrevivimos.",
+          "Vendimos todo lo que teníamos y compramos una casa en el centro de Gaza,",
+          "creyendo que allí estaríamos más seguros.",
+          "💔 7 de octubre de 2023: Todo cambió",
+          "El 7 de octubre de 2023, a las 6:25 de la mañana, preparaba el desayuno para mis hijos",
+          "y los alistaba para la escuela.",
+          "Estaban en la puerta cuando… explosiones estremecieron todo.",
+          "Nos quedamos en silencio por el miedo.",
+          "Los abracé fuerte y corrimos a nuestra habitación.",
+          "Era verano, pero sentimos un frío terrible… el frío del miedo.",
+          "Recibí en mi casa a familiares que huían de Shuja'iyya.",
+          "Pensé que estarían a salvo.",
+          "Pero no fue así.",
+          "Una semana después, las fuerzas de ocupación ordenaron evacuar la zona.",
+          "Después de pensarlo mucho, decidimos ir al sur, por nuestros hijos.",
+          "🧳 El desplazamiento… sin seguridad",
+          "Nos fuimos a Rafah, a casa de unos amigos.",
+          "Pero ni ahí estábamos a salvo.",
+          "Una casa cercana fue bombardeada.",
+          "Mi hermana y su hijo resultaron heridos.",
+          "Otro día, una explosión cercana nos dejó bajo los escombros.",
+          "Era como el Día del Juicio.",
+          "Grité los nombres de mis hijos, pero nadie respondió.",
+          "Estábamos todos sepultados.",
+          "Después de horas, los equipos de rescate nos sacaron… heridos, pero vivos.",
+          "⚰️ Pérdidas que no terminan",
+          "La tragedia no terminó.",
+          "Perdí a primos, sus esposas, sus hijos.",
+          "Asesinaron a sangre fría al Dr. Rifat Al-Ara'ir, creador de la campaña 'No somos solo números'.",
+          "Perdí también a mi tía, sus hijas y sus hijos… todos.",
+          "Nuestros corazones se rompieron.",
+          "🏚️ Vivir en una tienda de campaña",
+          "Cuando las fuerzas israelíes entraron a Rafah, no nos permitieron regresar a nuestra casa.",
+          "Huimos a Deir al-Balah, y vivimos en una tienda pequeña y rota, sin agua,",
+          "sin electricidad, sin nada.",
+          "Dormíamos en el suelo.",
+          "Llorábamos.",
+          "Vivíamos de la caridad, esperando pan o un poco de agua.",
+          "🕊️ Una tregua… y un regreso entre ruinas",
+          "En enero de 2025, se anunció una tregua de 60 días.",
+          "Decidí volver con mis hijos a nuestro hogar en Shuja'iyya.",
+          "Caminamos a pie.",
+          "Cada paso era nostalgia y esperanza.",
+          "Llegamos… pero no estaba el barrio.",
+          "Solo ruinas y cenizas.",
+          "Mi casa estaba quemada, sin puerta, sin techo.",
+          "Pero la limpié, la arreglé como pude… y me quedé,",
+          "porque era lo único que teníamos.",
+          "💣 El regreso de la guerra… y del hambre",
+          "La tregua terminó.",
+          "Volvió la guerra, más cruel.",
+          "Lana enfermó de desnutrición.",
+          "Yazan volvió a tener crisis respiratorias.",
+          "Mohammed ya no puede dormir del miedo.",
+          "Todos tenemos hambre, no hay medicinas, ni comida, ni esperanza.",
+          "Queremos pan.",
+          "Queremos que nuestros hijos vayan a la escuela, no a las tumbas.",
+          "🙏 ¿Acaso alguien me escucha?",
+          "Soy una madre palestina.",
+          "No busco lástima, busco justicia.",
+          "Salven a nuestros hijos.",
+          "Escuchen nuestra voz.",
+          "No dejen sola a Gaza.",
+          "No permitan que más madres saquen a sus hijos de los escombros.",
+          "💔 El momento más doloroso",
+          "En un momento que jamás olvidaré, vi a mis tres hijos siendo sacados de los escombros…",
+          "Yazan, Lana y Mohammed.",
+          "¿Qué madre puede soportar ver a sus hijos así?",
+          "Los saqué uno por uno…",
+          "Lloré, grité…",
+          "Y luego recé: 'Gracias, Allah ﷻ, porque siguen vivos'.",
+          "🕯️ Soy Faten… solo quiero vida",
+          "Soy Faten, de Gaza.",
+          "No pido mucho.",
+          "Solo una vida digna para mis hijos."
+        ]
+      },
+      {
+        "title": "Lana",
+        "especial": true,
+        "pages": [
+          {
+            "tipo": "texto",
+            "content": [
+              "💔 La historia de Lana — la niña que la guerra traicionó (en voz de su madre)",
+              "Lana, mi niña hermosa, nació en 2015 en el corazón del barrio Al-Rimal, en Gaza.",
+              "Era la consentida de la familia, la única hija después de años de espera.",
+              "Todos la adoraban, y cualquier cosa que pedía, se la dábamos sin pensarlo.",
+              "No solo por ser la más pequeña, sino porque era realmente un angelito entre nosotros.",
+              "Lana creció entre sonidos de aviones, bombas y sirenas.",
+              "Nunca conoció una infancia normal.",
+              "Cada guerra que pasaba le dejaba una herida silenciosa por dentro.",
+              "Mi hija no lloraba fuerte... se acurrucaba, temblaba, cerraba los ojos y esperaba que el ruido terminara.",
+              "Tiene fobia a los ruidos fuertes.",
+              "Incluso el sonido del viento o los truenos todavía la asustan mucho.",
+              "Lana ama dibujar.",
+              "Ama los colores.",
+              "Podía convertir cualquier hoja en alegría.",
+              "Era excelente en la escuela, le apasionaba aprender, y esperaba con ansias su clase de arte...",
+              "Preparaba sus colores desde la noche anterior y me decía:",
+              "'Mamá, ¡mañana les voy a enseñar mi dibujo!'",
+              "Pero la última guerra... lo destruyó todo.",
+              "Nuestra casa se quemó.",
+              "Su escuela fue bombardeada.",
+              "Nuestro coche, que la llevaba todos los días al cole, desapareció.",
+              "Mi hija salió de debajo de los escombros, con heridas, con miedo,",
+              "y con ojos que no entendían por qué todo desapareció de golpe.",
+              "Y aun así... intentaba sonreírme.",
+              "Me abrazaba y me decía:",
+              "'Mamá, no pasa nada', como si ella fuera la madre y yo la hija.",
+              "Me pide una hamburguesa... le digo \"inshallah\".",
+              "Me pide un cuaderno para dibujar... le digo 'pronto'.",
+              "Y se duerme agarrada de mi mano, con miedo de que la noche la escuche."
+            ]
+          },
+          {
+            "tipo": "videoTexto",
+            "video": "/videos/faten.mp4",
+            "texto": [
+              "Soy \"madre\", y cada día veo cómo mi hija se apaga...",
+              "no solo por la guerra, sino por la ausencia de vida.",
+              "Cuento su historia no solo para compartir nuestro dolor,",
+              "sino por si alguien puede devolverle una parte de lo que perdió:",
+              "un cuaderno, un poco de calor, un color, un momento de \"paz\".",
+              "Todo lo que Lana tenía, ahora es un recuerdo.",
+              "\"Pero su esperanza... aún no se ha apagado\"."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ayer rompí mi silencio",
+        "content": [
+          "Soy de esas personas que casi no salen de casa, no solo por la guerra…",
+          "El miedo, los bombardeos, el dolor… todo me empujó a quedarme entre las paredes de mi hogar.",
+          "Pero ayer, me sentía ahogada.",
+          "Decidí salir con mis hijos, caminar un poco, cambiar el aire… quizá escapar por unos minutos de esta realidad.",
+          "Mis pasos me llevaron por calles que ya no parecen calles,",
+          "Destrucción por todos lados, escombros que habitan cada rincón.",
+          "Gaza hoy… es una ciudad que camina sobre su propio corazón.",
+          "Vimos a la gente, mucha gente…",
+          "Personas caminando con miradas vacías,",
+          "Personas sentadas en las aceras, escapando del infierno de las tiendas de campaña,",
+          "Gente cargando agua, buscando comida con ollas vacías,",
+          "Rostros tristes… corazones llorando en silencio.",
+          "Escenas que, tristemente… ya se han vuelto \"normales\".",
+          "Pero en un instante…",
+          "Una escena me detuvo, me rompió el alma, y sembró en mí un dolor nuevo.",
+          "Vi a un hombre… bien vestido, con apariencia educada, respetable.",
+          "Caminaba tranquilo, de repente gritó con una voz que estremeció la calle:",
+          "'¿Quién soy? ¿Quién soy yo?'",
+          "'¡Gente, ¿quién soy?!'",
+          "Y luego dijo: '¡Mi padre ha muerto! ¡Mi padre ha muerto!'",
+          "Llamaba por teléfono, lo repetía una y otra vez, golpeándose la cabeza,",
+          "gritando desde lo más profundo de su corazón.",
+          "Esa escena me quebró. Lloré con el alma.",
+          "Me pregunté: ¿Qué nos ha pasado? ¿Qué le ha pasado a mi pueblo? ¿A nuestra dignidad?",
+          "Caminé un poco más…",
+          "Vi a una anciana sentada frente a su tienda de campaña, hablando sola en voz alta:",
+          "'Cambiaste, oh país… todo cambió… no tengo para comprar comida… ni siquiera tengo pan…'",
+          "La miré, y mis ojos se inundaron de lágrimas.",
+          "No podía ayudarla, no tenía pan, ni dinero…",
+          "Solo tenía un corazón roto y una impotencia que me ahogaba.",
+          "Decidí volver de inmediato a casa,",
+          "Tomar a mis hijos de la mano y huir de tanto dolor…",
+          "Ya no tenía fuerza para ver otra escena,",
+          "Mi corazón no soportaba otra lágrima…",
+          "En el camino, Lana y Muhammad vieron a un vendedor de uvas.",
+          "Yo no lo vi, estaba perdida en mi tristeza,",
+          "Pero ellos gritaron:",
+          "¡Mamá, por favor! ¡Tenemos antojo! ¡Hace mucho que no comemos uvas!'",
+          "Mi corazón se rompió, no tenía dinero para comprar…",
+          "Pero les prometí que algún día lo haría…",
+          "Regresé a casa sintiendo que llevaba el mundo sobre mis hombros,",
+          "Lloré por el hombre, por la anciana, por mis hijos…",
+          "Y tomé una decisión: no volveré a salir de mi casa.",
+          "No porque sea débil,",
+          "Sino porque mi corazón está frágil,",
+          "Y cada esquina de la ciudad es una herida que no sana.",
+          "---",
+          "Oh Allah ﷻ…",
+          "No pedimos mucho. Solo seguridad. Solo pan. Solo un abrazo para nuestros hijos.",
+          "No queremos más que vivir con dignidad, sin temblar ante un grito,",
+          "sin llorar de impotencia, sin rompernos por no tener para un racimo de uvas.",
+          "Desde Gaza… desde el corazón de una madre, les escribo,",
+          "con la esperanza de que mis palabras lleguen a un corazón compasivo,",
+          "que encienda una vela en medio de esta larga oscuridad."
+        ]
+      }
+    ]
+  },
   {
     "id": 8,
     "nombre": "Abdul Razzaq Al-Majdalawi",
@@ -1511,7 +1496,7 @@
     },
     "parts": [
       {
-        "title": "Oh Diyaa… cuentale al Mensajero de Allah",
+        "title": "Oh Diyaa… cuéntale al Mensajero de Allah",
         "content": [
           "",
           "",
@@ -1520,11 +1505,11 @@
           "Estoy aquí entregando un mensaje a mi primo Diyaa, para que lo lleve al Mensajero de Allah ﷺ.",
           "",
           "Y nada más.",
-          "Y antes de confiarle este mensaje, dejad que os cuente quién era Diyaa.",
+          "Y antes de confiarle este mensaje, déjenme contarles quién era Diyaa.",
           "Menos de una hora antes de su martirio, recitaba las palabras de Allah Altísimo:",
           "﴿ يَوْمَ يَعَضُّ الظَّالِمُ عَلَى يَدَيْهِ ﴾ — {El día en que el opresor se morderá las manos}.",
           "",
-          "Este es un mensaje urgente para los sacerdotes del templo (La Mekah) en la tierra de los Dos",
+          "Este es un mensaje urgente para los sacerdotes del templo (La Meca) en la tierra de los Dos",
           "Santuarios (Arabia Saudí).",
           "Y para los sacerdotes del templo en Al-Azhar (en Egipto).",
           "Y para toda barba que cayó ante la firmeza del pueblo de Gaza.",
@@ -1532,7 +1517,7 @@
           "la mujer), y olvidó mover un ejército.",
           "Y que no defendió a un solo musulmán.",
           "",
-          "Juro por Allah, Diyaa (el nombre de su primo) era mejor que yo en carácter y comportamiento.",
+          "Juro por Allah, Diyaa era mejor que yo en carácter y comportamiento.",
           "Incluso después de su martirio, la alarma del qiyam (el rezo de medianoche) seguía sonando en su teléfono.",
           "Como si se nos hubiera adelantado para presentarse ante el Mensajero de Allah ﷺ.",
           "",
@@ -1540,11 +1525,11 @@
           "Ni a cambio de una nacionalidad extranjera, ni por unos aplausos en las redes sociales.",
           "",
           "Cuéntale que nuestros gobernantes se han convertido en esclavos de Trump.",
-          "No hay entre ellos ni un Mu‘tasim, ni un ‘Umar, ni un Abu Bakr, ni un Salah ad-Din",
+          "No hay entre ellos ni un Mu'tasim, ni un 'Umar, ni un Abu Bakr, ni un Salah ad-Din",
           "(todos grandes personajes del islam).",
           "",
           "Oh Diyaa… cuéntale que nuestros ejércitos están llenos de armamento,",
-          "pero no hay en ellos ni un Jalid, ni un Musanna, ni un Qaqa‘, ni un Qutuz, ni",
+          "pero no hay en ellos ni un Jalid, ni un Musanna, ni un Qaqa', ni un Qutuz, ni",
           "un Baibars (grandes guerreros musulmanes).",
           "",
           "Cuéntale que los sabios no heredaron la profecía,",
@@ -1565,7 +1550,7 @@
           "«No les dañará quien los abandone».",
           "",
           "Y ciertamente nos abandonaron, oh Mensajero de Allah.",
-          "Nos abandonaron los shuyuj (los sabios del islam), nos abandonaron los movimientos, nos abandonaron los du‘at (los predicadores",
+          "Nos abandonaron los shuyuj (los sabios del islam), nos abandonaron los movimientos, nos abandonaron los du'at (los predicadores",
           "del islam), nos abandonaron los ejércitos.",
           "Nos abandonó una Ummah (toda la nación musulmana) que supera los dos mil millones.",
           "",
@@ -1573,7 +1558,6 @@
           "Oh Allah, haz que sea compañero de Tu Mensajero en el Yannah."
         ]
       }
-     
     ]
   }
 ]
