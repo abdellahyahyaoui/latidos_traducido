@@ -1,0 +1,445 @@
+.autor-indice-container {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: auto;
+  overflow-x: hidden; /* ✅ SOLUCIÓN: Ocultar scroll horizontal */
+  font-weight: 300;
+  width: 100%; /* ✅ AÑADIR: Asegurar ancho completo */
+  box-sizing: border-box; /* ✅ AÑADIR: Incluir padding en el ancho */
+}
+p.autor-indice-description.texto-arabe{
+
+  font-family: "Amiri", serif;
+  direction: rtl;
+}
+.autor-indice-subtitulo.texto-arabe,
+.autor-indice-part-item.texto-arabe {
+  font-family: "Amiri quran", serif;
+  direction: rtl;
+  text-align: center;
+  /* font-size: 1.9rem; ajusta según tu diseño */
+  line-height: 1.6;
+}
+
+.autor-indice-header {
+  flex-shrink: 0;
+}
+
+.autor-indice-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+}
+
+.autor-indice-titulo {
+  font-size: clamp(2.5rem, 7vw, 3.5rem);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  color: #b91c1c;
+  flex-shrink: 0;
+}
+
+.autor-indice-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.autor-indice-left-column {
+  flex: 1;
+  min-width: 280px;
+  max-width: 450px;
+  padding: 1.5rem;
+  border: 1px solid #15803d;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(21, 128, 61, 0.1);
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 365px;
+  overflow: hidden;
+  position: relative;
+}
+
+.autor-indice-right-column {
+  flex: 1;
+  min-width: 280px;
+  max-width: 450px;
+  padding: 1.5rem;
+  border: 1px solid #15803d;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(21, 128, 61, 0.1);
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  height: auto; /* Permite que la altura se ajuste al contenido */
+  position: relative; /* Para posicionar el scroll indicator de la descripción */
+}
+
+/* Ocultar scrollbar de la columna derecha (si se aplica a un elemento interno) */
+.autor-indice-right-column::-webkit-scrollbar {
+  display: none;
+}
+
+.author-header {
+  display: flex; /* Cambiado a flex para horizontal */
+  flex-direction: row; /* Asegura disposición en fila */
+  align-items: center; /* Alinea verticalmente al centro */
+  gap: 1rem; /* Espacio entre imagen y nombre */
+  margin-bottom: 1rem; /* Espacio debajo del encabezado del autor */
+  width: 100%;
+  justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+/* Nuevo estilo para la imagen de perfil del autor */
+.author-profile-image {
+  width: 80px; /* Tamaño del círculo, ligeramente más pequeño para caber al lado del nombre */
+  height: 80px;
+  border-radius: 50%; /* Lo hace un círculo */
+  object-fit: cover; /* Asegura que la imagen cubra el círculo */
+  border: 1px solid #14532d; /* Borde rojo para la imagen */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+  flex-shrink: 0; /* Evita que la imagen se encoja */
+}
+
+/* Nuevo contenedor para la descripción con scroll */
+.autor-indice-description-wrapper {
+  max-height: 150px; /* Altura máxima para la descripción antes de hacer scroll */
+  overflow-y: auto; /* Habilita el scroll vertical */
+  scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
+  -ms-overflow-style: none; /* Oculta la barra de scroll en IE/Edge */
+  position: relative; /* Para el scroll indicator */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding-right: 0.5rem; /* Espacio para evitar que el texto toque el borde del scrollbar */
+  margin-top: 0; /* No margin-top aquí, se maneja con el flujo de la columna */
+  flex: 1; /* Permite que crezca y ocupe el espacio restante */
+  box-sizing: border-box;
+  padding-bottom: 20px; /* Espacio para el indicador de scroll en la parte inferior */
+}
+
+/* Ocultar scrollbar en Chrome/Safari para el wrapper de la descripción */
+.autor-indice-description-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.autor-indice-description {
+  font-size: clamp(0.9rem, 2.2vw, 1.2rem);
+  line-height: 1.6;
+  text-align: justify;
+  color: #2d2b2b;
+  margin-top: 0; /* Resetear margen superior si se había aplicado */
+     font-family: "Cormorant Garamond";
+font-style: italic;
+font-weight: 600;
+}
+
+.autor-indice-parts-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  max-height: 250px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  width: 100%;
+  flex: 1;
+
+  /* Scrollbar invisible */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Ocultar scrollbar en Chrome/Safari */
+.autor-indice-parts-list::-webkit-scrollbar {
+  display: none;
+}
+
+.autor-indice-part-item {
+  font-size: clamp(1.1rem, 2.5vw, 1.1rem);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  color: #000;
+  transition: all 0.2s ease;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  text-align: center;
+  font-weight: 500;
+  padding: 0.5rem;
+  font-family: "Cinzel", serif;
+}
+
+.autor-indice-part-item:hover {
+  color: #15803d;
+  transform: translateY(-2px);
+  font-size: 1.4rem;
+}
+
+/* ✅ CAMBIAR: Indicador de scroll clickeable */
+.scroll-indicator {
+  position: absolute;
+  bottom: 0px; /* Posicionado en la parte inferior del wrapper de la descripción */
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ef4444;
+  font-size: 1.2rem;
+  animation: bounce 2s infinite;
+  opacity: 0.7;
+  z-index: 10;
+  transition: all 0.2s ease; /* ✅ AÑADIR: Transición suave */
+}
+
+/* ✅ AÑADIR: Estilos para triángulo clickeable */
+.scroll-indicator.clickeable {
+  pointer-events: auto; /* ✅ CAMBIAR: Permitir clicks */
+  cursor: pointer; /* ✅ AÑADIR: Cursor de mano */
+  opacity: 0.8; /* ✅ CAMBIAR: Más visible */
+}
+
+.scroll-indicator.clickeable:hover {
+  opacity: 1; /* ✅ AÑADIR: Completamente visible al hover */
+  transform: translateX(-50%) scale(1.1); /* ✅ AÑADIR: Efecto de crecimiento */
+  color: #dc2626; /* ✅ AÑADIR: Color más intenso al hover */
+}
+
+.scroll-indicator.clickeable:active {
+  transform: translateX(-50%) scale(0.95); /* ✅ AÑADIR: Efecto de presión */
+}
+
+/* Animación de rebote para el indicador */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-3px);
+  }
+}
+
+/* ✅ CAMBIAR: Pausar animación al hover para mejor UX */
+.scroll-indicator.clickeable:hover {
+  animation-play-state: paused;
+}
+
+/* Ocultar indicador cuando no hay scroll en AMBAS columnas */
+.autor-indice-left-column.no-scroll .scroll-indicator,
+.autor-indice-right-column.no-scroll .scroll-indicator {
+  display: none;
+}
+
+/* Contenedor del botón de contacto del autor */
+.contact-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1.5rem; /* Espacio después del wrapper de la descripción */
+  margin-bottom: 0; /* Eliminar margen inferior si es el último elemento */
+}
+
+.autor-indice-subtitulo {
+  font-size: clamp(1.4rem, 4vw, 1.2rem);
+  margin-bottom: 0; /* Eliminar margen inferior */
+  font-weight: 500;
+  color: #15803d;
+  text-align: center;
+  flex-shrink: 1; /* Permite que el texto se encoja */
+  word-break: break-word; /* Rompe palabras largas para evitar desbordamiento */
+  font-family: 'Bonheur Royale';
+}
+
+/* Nuevo cuadro para el contenido del relato paginado */
+.autor-story-content-box {
+  background-color: #f8fafc;
+  border: 1px solid #15803d;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(21, 128, 61, 0.1);
+  width: 100%;
+  max-width: 900px; /* Mismo ancho máximo que las columnas superiores */
+  margin-bottom: 2rem; /* Espacio antes de los controles de paginación */
+  box-sizing: border-box;
+}
+
+.autor-story-content-box .section-title {
+  font-size: 1.5rem; /* Equivalente a text-2xl */
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #16a34a; /* Equivalente a text-green-700 */
+  text-align: center; /* Centra el título de la sección */
+}
+
+.autor-story-content-box .content-display {
+  font-size: 1.125rem; /* Equivalente a text-lg */
+  text-align: justify;
+  line-height: 1.625; /* Equivalente a leading-relaxed */
+  margin-bottom: 0; /* No hay margen inferior si es el último elemento */
+  word-break: break-word; /* Rompe palabras largas para evitar desbordamiento */
+}
+
+.autor-story-content-box .content-display p {
+  margin-bottom: 1rem;
+  word-break: break-word; /* Asegura que los párrafos también rompan palabras */
+}
+
+/* Estilos para los botones de paginación y volver al índice */
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0 1rem; /* Añade padding para que coincida con el contenedor */
+}
+
+.back-to-index-button {
+  width: 100%;
+  background-color: #6b7280;
+  color: white;
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 24px;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.back-to-index-button:hover {
+  background-color: #4b5563;
+}
+
+
+
+
+
+.triangulo {
+  font-size: 1.2rem;
+}
+
+.triangulo.rojo {
+  color: #ef4444;
+}
+
+.texto-sig {
+  font-weight: 500;
+}
+
+/* Ajustes responsivos para AutorIndice */
+@media (max-width: 1024px) {
+  .autor-indice-container {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .autor-indice-main-content {
+    overflow-y: visible;
+  }
+
+  .autor-indice-parts-list {
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  .autor-indice-left-column {
+    min-width: 300px;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .autor-indice-right-column {
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  /* Ocultar indicador en móvil */
+  .scroll-indicator {
+    display: none;
+  }
+
+  .author-profile-image {
+    width: 100px; /* Ajuste para pantallas más pequeñas */
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .autor-indice-columns {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .autor-indice-left-column,
+  .autor-indice-right-column {
+    min-width: unset;
+    width: calc(100% - 2rem);
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #15803d;
+    box-sizing: border-box;
+  }
+
+  .autor-indice-main-content {
+    padding: 1rem;
+  }
+
+  .author-header {
+    flex-direction: column; /* Volver a apilar en pantallas pequeñas si es necesario */
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .autor-indice-description,
+  .autor-indice-part-item {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .autor-indice-subtitulo {
+    font-size: clamp(2rem, 4vw, 2rem);
+  }
+
+  .autor-indice-left-column,
+  .autor-indice-right-column {
+    padding: 1rem;
+    width: calc(112% - 1.5rem);
+    max-width: 350px;
+    margin: 0 auto;
+    margin-left: -10px;
+    border: 1px solid #15803d;
+  }
+
+  .author-profile-image {
+    width: 80px; /* Ajuste para móviles pequeños */
+    height: 80px;
+  }
+}

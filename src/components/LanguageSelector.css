@@ -1,0 +1,70 @@
+.language-button-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 3000;
+}
+
+.contact-button-main {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* para el dropdown relativo al botón */
+  cursor: pointer;
+  border: none; 
+  border-radius: 9999px; 
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #10b981, #059669);
+  color: white;
+  font-family: "Cinzel";
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-button-main:hover .flag-dropdown,
+.contact-button-main:focus .flag-dropdown {
+  display: flex;
+}
+
+.flag-dropdown {
+  display: none; /* oculto por defecto */
+  position: absolute;
+  top: 100%; /* justo debajo del botón */
+  left: 50%; /* empezar desde el centro horizontal del botón */
+  transform: translateX(-50%); /* centrar horizontalmente */
+  flex-direction: column; /* línea vertical */
+  gap: 10px; 
+  margin-top: 10px; /* separación del botón */
+  z-index: 3000;
+}
+
+.flag-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+  background:none;
+}
+
+.flag-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flag-circle:hover {
+  transform: scale(1.25);
+}
+
+.flag-circle.active {
+  border: 2px solid #059669;
+}

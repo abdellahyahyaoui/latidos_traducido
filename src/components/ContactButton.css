@@ -1,0 +1,83 @@
+.contact-button-top {
+  /* ✅ Eliminado posicionamiento fijo para que se integre en el flujo de la Portada */
+  display: block; /* Asegura que ocupe su propio espacio y se pueda centrar con margin */
+  margin: 2rem auto 0; /* ✅ Centra horizontalmente y añade margen superior para separar del autor */
+  background: linear-gradient(135deg, #15803d, #22c55e);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(21, 128, 61, 0.3);
+  transition: all 0.3s ease;
+  z-index: 1000; /* Mantenemos un z-index alto por si acaso, aunque es menos crítico ahora */
+  opacity: 0.9;
+}
+
+.contact-button-top:hover {
+  opacity: 1;
+  transform: translateY(-2px); /* Efecto de elevación sutil al pasar el cursor */
+  box-shadow: 0 6px 20px rgba(21, 128, 61, 0.4);
+}
+
+.contact-button-main {
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 9999px; /* Para un botón completamente redondeado (pill shape) */
+  font-size: 1rem; /* Tamaño de fuente más pequeño */
+  font-weight: 600;
+  padding: 0.75rem 1.5rem; /* Relleno más pequeño */
+  cursor: pointer;
+  border: none; /* Sin borde */
+  color: white;
+  background: linear-gradient(to right, #10b981, #059669); /* Gradiente verde */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase; /* Texto en mayúsculas como en la imagen */
+  letter-spacing: 0.05em; /* Espaciado entre letras */
+  font-family: "cinzel";
+}
+
+.contact-button-main:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(21, 128, 61, 0.4);
+}
+
+.contact-text {
+  letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-button-top {
+    margin-top: 1.5rem; /* Ajuste de margen para pantallas más pequeñas */
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .contact-button-main {
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-button-top {
+    margin-top: 1rem; /* Ajuste adicional para móviles muy pequeños */
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .contact-button-main {
+   margin: 0;
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}

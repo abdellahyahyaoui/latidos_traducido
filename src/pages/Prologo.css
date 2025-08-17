@@ -1,0 +1,181 @@
+.prologo-container {
+  font-family: 'Cormorant Garamond';
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.prologo-main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 2rem;
+  overflow-y: auto;
+  margin-top: 25px;
+}
+
+.titulo-prologo {
+  font-family: 'Bonheur Royale';
+  font-size: clamp(1.5rem, 7vw, 3.5rem);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  color: #15803d;
+}
+
+.cita {
+  font-size: clamp(1.1rem, 3vw, 1.4rem);
+  max-width: 100%;
+  margin: 0;
+  line-height: 1.2;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.parrafo-prologo {
+  margin-bottom: 0.5rem;
+  text-indent: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.frase-secundaria {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: #e05a5a;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.boton-indice-principal {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-indice-principal .triangulo {
+  color: #e05a5a;
+  font-size: 1.5rem;
+}
+
+.boton-indice-principal:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
+.navegacion-relato {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0;
+  min-height: 60px;
+}
+
+.resaltar-palestina {
+  color: #15803d;
+  font-weight: bold;
+}
+
+.resaltar-latido {
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+.cita-especial {
+  color: #15803d;
+  font-style: italic;
+}
+
+/* ✅ AÑADIR: Responsive para tablet (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .prologo-container {
+    padding: 1.2rem;
+  }
+
+  .prologo-main-content {
+    padding: 0 1.8rem;
+  }
+
+  .titulo-prologo {
+    font-size: clamp(2.2rem, 6vw, 3rem);
+    margin-bottom: 1.8rem;
+  }
+
+  .cita {
+    font-size: clamp(1rem, 2.8vw, 1.3rem);
+  }
+
+  .parrafo-prologo {
+    font-size: 1.05rem;
+    margin-bottom: 0.55rem;
+    text-indent: 1.4rem;
+  }
+
+  .navegacion-relato {
+    padding: 0.8rem 0;
+  }
+}
+
+/* Responsive para móviles (hasta 768px) */
+@media (max-width: 768px) {
+  .prologo-main-content {
+    padding: 1rem;
+  }
+  .titulo-prologo {
+    margin-bottom: 1.5rem;
+  }
+  .navegacion-relato {
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .prologo-container {
+    padding: 0.5rem;
+  }
+  .prologo-main-content {
+    padding: 0 1rem;
+  }
+  .titulo-prologo {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .cita {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+  .parrafo-prologo {
+    margin-bottom: 0.4rem;
+    text-indent: 1rem;
+  }
+  .frase-secundaria {
+    font-size: 1.3rem;
+  }
+  .navegacion-relato {
+    padding: 0.8rem 0.3rem;
+  }
+}

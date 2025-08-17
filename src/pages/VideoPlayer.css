@@ -1,0 +1,32 @@
+.video-container {
+  /* margin-top: -339px; */
+  text-align: center;
+    width: 825px;
+    
+}
+.video-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #b22222;
+}
+.video-element {
+    margin-left: -825px;
+  max-width: 32%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border: 1px solid green;
+}
+@media (max-width: 480px) {
+    .video-container{
+        margin-top: 0;
+        position: relative;
+           margin-top: 0;
+    margin-left: 0;
+    width: auto;
+    }
+    .video-element{
+        margin-left: 0;
+        max-width: 100%;
+    }
+}

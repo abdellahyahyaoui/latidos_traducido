@@ -1,0 +1,28 @@
+.corazon-palestina {
+  width: 50px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  animation: latido 1.5s infinite, palestina-brillo 3s infinite;
+}
+
+@keyframes latido {
+  0%, 100% { transform: scale(1); }
+  30% { transform: scale(1.1); }
+  60% { transform: scale(0.95); }
+}
+
+@keyframes palestina-brillo {
+  0% { filter: drop-shadow(0 0 0px #f90606); }
+  33% { filter: drop-shadow(0 0 6px #000); }
+  66% { filter: drop-shadow(0 0 6px #51d472); }
+  100% { filter: drop-shadow(0 0 0px #f50404); }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 25px; /* Un tamaño fijo más pequeño para pantallas muy estrechas */
+    top: 0.5rem; /* Más cerca de la esquina */
+    left: 0.5rem;
+  }
+}

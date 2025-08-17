@@ -1,0 +1,264 @@
+.indice-container {
+  font-family: "Cormorant Garamond", serif;
+  padding: 1rem;
+  height: 100vh; /* ✅ MANTENER: Altura fija */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* ✅ CAMBIAR: De 'hidden' a 'hidden' */
+  box-sizing: border-box;
+}
+
+.indice-header {
+  flex-shrink: 0;
+}
+
+.indice-content {
+  flex: 1;
+  overflow-y: hidden; /* ✅ MANTENER: Sin scroll en el contenido principal */
+  padding-right: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.indice-titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: #b91c1c;
+  font-weight: 600;
+  flex-shrink: 0; /* ✅ AÑADIR: No se comprime */
+}
+
+.secciones-container {
+  display: flex;
+  gap: 2rem; /* ✅ CAMBIAR: Más espacio entre columnas */
+  margin: 0 auto;
+  max-width: 1200px; /* ✅ CAMBIAR: Ancho máximo */
+  padding: 0 1rem; /* ✅ CAMBIAR: Más padding lateral */
+  box-sizing: border-box;
+  overflow-x: hidden;
+  flex: 1;
+  align-items: stretch;
+  justify-content: center; /* ✅ AÑADIR: Centrar columnas */
+  height: fit-content; /* ✅ AÑADIR: Altura que se ajuste al contenido */
+}
+
+.seccion-autores {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  background-color: #f8fafc;
+  border: 1px solid #15803d; /* ✅ CAMBIAR: Borde verde más grueso */
+  border-radius: 12px; /* ✅ CAMBIAR: Bordes más redondeados */
+  padding: 1.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 400px; /* ✅ CAMBIAR: Altura fija más compacta */
+  box-shadow: 0 4px 12px rgba(21, 128, 61, 0.1); /* ✅ AÑADIR: Sombra verde sutil */
+}
+
+.seccion-titulo {
+  font-size: 1.8rem;
+  color: #15803d;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  word-wrap: break-word;
+  flex-shrink: 0;
+}
+
+.seccion-descripcion {
+  font-size: 2rem;
+  color: #264131;
+  margin-bottom: 2rem;
+  line-height: 1;
+  text-align: center;
+  word-wrap: break-word;
+  flex-shrink: 0;
+  font-family: 'Ephesis';
+  font-weight: 500;
+}
+
+.lista-autores {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+  padding-right: 0.5rem; /* ✅ AÑADIR: Espacio para scroll invisible */
+  text-align: center;
+
+  /* Scrollbar invisible */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.lista-autores::-webkit-scrollbar {
+  display: none;
+}
+
+/* ✅ MEJORAR: Estilos para triángulos */
+.scroll-indicator {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ef4444;
+  font-size: 1.2rem;
+  animation: bounce 2s infinite;
+  opacity: 0.7;
+  z-index: 10;
+  transition: all 0.2s ease;
+}
+
+.scroll-indicator.clickeable {
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.scroll-indicator.clickeable:hover {
+  opacity: 1;
+  transform: translateX(-50%) scale(1.1);
+  color: #dc2626;
+  animation-play-state: paused;
+}
+
+.scroll-indicator.clickeable:active {
+  transform: translateX(-50%) scale(0.95);
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-3px);
+  }
+}
+
+.seccion-autores.no-scroll .scroll-indicator {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .secciones-container {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .seccion-autores {
+    min-width: 220px;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .indice-container {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .indice-content {
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+
+  .secciones-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    align-items: center; /* ✅ AÑADIR: Centrar columnas */
+  }
+
+  .seccion-autores {
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
+    height: auto; /* ✅ CAMBIAR: Altura automática en móvil */
+  }
+
+  .lista-autores {
+    overflow-y: visible;
+  }
+
+  .scroll-indicator {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .indice-container {
+    padding: 0.5rem;
+  }
+
+  .secciones-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 1rem auto;
+    width: 100vw;
+  }
+
+  .seccion-autores {
+    min-width: unset;
+    width: calc(100% - 2rem); /* ✅ CAMBIAR: Ancho que respete márgenes */
+    max-width: 400px; /* ✅ AÑADIR: Ancho máximo para centrado */
+    margin: 0 auto; /* ✅ CAMBIAR: Centrar horizontalmente */
+    border: 2px solid #15803d; /* ✅ AÑADIR: Mantener borde verde */
+    box-sizing: border-box;
+  }
+
+  .indice-titulo {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .indice-container {
+    padding: 0.3rem;
+  }
+
+  .seccion-titulo {
+    font-size: 1.6rem;
+  }
+
+  .seccion-descripcion {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .seccion-autores {
+    padding: 0.8rem;
+    border-radius: 6px;
+    width: calc(100% - 1rem); /* ✅ CAMBIAR: Ajustar para padding menor */
+    max-width: 350px;
+    border: 1px solid #15803d; /* ✅ AÑADIR: Borde verde también aquí */
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.indice-container * {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}

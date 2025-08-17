@@ -1,0 +1,42 @@
+.language-selector {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.language-btn {
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-width: 60px;
+  
+}
+
+.language-btn.active {
+  border-color: #007bff;
+  background: #007bff;
+  color: white;
+}
+
+.language-btn:hover {
+  border-color: #007bff;
+  transform: translateY(-1px);
+}
+
+.language-btn:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+/* RTL support for Arabic */
+[dir="rtl"] .language-selector {
+  direction: ltr; /* Keep language selector LTR */
+  
+}

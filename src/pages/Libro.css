@@ -1,0 +1,73 @@
+.contenedor-libro {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.libro-pantalla-completa {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pagina-libro {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+/* ✅ CAMBIAR: Media Query para móviles y tablets hasta 1024px */
+@media (max-width: 1024px) {
+  .libro-pantalla-completa {
+    height: auto !important;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  .pagina-libro {
+    padding: 1.5rem 1rem;
+    height: auto;
+    min-height: calc(100vh - 3rem);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+     scrollbar-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .pagina-libro {
+    padding: 1rem 0.8rem;
+    min-height: calc(100vh - 2rem);
+    overflow-y: visible;
+  }
+
+  .pagina-libro > * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contenedor-libro {
+    overflow: scroll;
+    
+  }
+  .pagina-libro > *{
+    display: contents;
+  }
+}
+
+.pagina-libro > * {
+  max-width: 100%;
+  box-sizing: border-box;
+  /* overflow-x: clip; */
+  /* display: contents; */
+}

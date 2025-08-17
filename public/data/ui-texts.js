@@ -1,0 +1,38 @@
+export const UI_TEXTS = {
+  es: {
+    siguiente: "Siguiente",
+    dirigidoPor: "Dirigido por",
+    titulo: "Cartas de Esperanza",
+    prologo: "Una colección de relatos que nos invitan a reflexionar sobre la esperanza, el amor y la vida.",
+    seleccionarIdioma: "Seleccionar idioma",
+    volver: "Volver",
+    indice: "Índice",
+  },
+  en: {
+    siguiente: "Next",
+    dirigidoPor: "Directed by",
+    titulo: "Letters of Hope",
+    prologo: "A collection of stories that invite us to reflect on hope, love and life.",
+    seleccionarIdioma: "Select language",
+    volver: "Back",
+    indice: "Index",
+  },
+  ar: {
+    siguiente: "التالي",
+    dirigidoPor: "من إخراج",
+    titulo: "رسائل الأمل",
+    prologo: "مجموعة من القصص التي تدعونا للتفكير في الأمل والحب والحياة.",
+    seleccionarIdioma: "اختر اللغة",
+    volver: "العودة",
+    indice: "الفهرس",
+  },
+  fr: {
+    siguiente: "Suivant",
+    dirigidoPor: "Dirigé par",
+    titulo: "Lettres d'Espoir",
+    prologo: "Une collection d'histoires qui nous invitent à réfléchir sur l'espoir, l'amour et la vie.",
+    seleccionarIdioma: "Sélectionner la langue",
+    volver: "Retour",
+    indice: "Index",
+  },
+}

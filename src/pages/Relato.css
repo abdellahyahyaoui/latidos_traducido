@@ -1,0 +1,634 @@
+.relato-container {
+  font-family:'Cormorant Garamond';
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  padding: 1rem;
+  font-weight: 400;
+}
+/* Estilo exclusivo para texto árabe */
+/* Estilo exclusivo para texto árabe */
+.parrafo-relato.texto-arabe {
+  font-size: 1.1rem; /* o el tamaño que quieras */
+  font-family: 'Amiri', serif;
+  direction: rtl;
+  text-align: center;
+  line-height: 1.5;
+  
+}
+.relato-titulo.texto-arabe {
+  font-family: 'Amiri quran', serif; /* o Cairo, Noto Naskh Arabic, etc. */
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  direction: rtl;
+  text-align: center;
+  line-height: 1.5;
+ color: #14532d; /* opcional: un verde profundo que combine */
+}
+  
+
+
+/* ✅ RESTAURAR: Header original */
+.relato-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.relato-autor-superior {
+  font-family: "Waterfall", cursive;
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  color: #820202;
+  text-align: right;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/* ✅ RESTAURAR: Encabezado del libro */
+.encabezado-libro {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Bonheur Royale';
+  margin-left: 0;
+}
+
+.relato-titulo {
+  font-family: 'Bonheur Royale';
+  font-size: clamp(2.5rem, 7vw, 1.5rem);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+ color: #15803D;
+  flex-shrink: 0;
+}
+
+.relato-content {
+  font-size: clamp(1.1rem, 3vw, 1.4rem);
+  line-height: 1.4;
+  text-align: center;
+  padding: 0 2rem;
+  overflow-y: auto;
+  margin-top: 25px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  scrollbar-width: none;  
+}
+
+.parrafo-relato {
+  margin-bottom: 0.5rem;
+  text-indent: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Navegación */
+.navegacion-relato {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0;
+  min-height: 60px;
+}
+
+.boton-indice-principal {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-indice-principal .triangulo {
+  color: #e05a5a;
+  font-size: 1.5rem;
+}
+
+.boton-indice-principal:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
+.triangulo {
+  font-size: 1.2rem;
+}
+
+.triangulo.verde {
+  color: #22c55e;
+}
+
+.triangulo.rojo {
+  color: #ef4444;
+}
+
+.texto-ant,
+.texto-sig {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Ajustar el corazón */
+.corazon-palestina {
+  position: static;
+  width: 25px;
+  animation: none;
+  cursor: pointer;
+}
+
+/* ✅ ELEMENTOS RELIGIOSOS EN VERDE */
+.cita-coran {
+  color: #15803d;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.referencia-allah {
+  color: #15803d !important;
+  font-weight: bold;
+}
+
+.referencia-profeta {
+  color: #15803d !important;
+  font-weight: bold;
+}
+
+.referencia-libro-sagrado {
+  color: #15803d;
+  font-weight: bold;
+}
+
+.nombre-profeta {
+  color: #15803d;
+  font-weight: bold;
+}
+
+.cita-autor {
+  color: #15803d;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.refran-arabe {
+  color: #15803d;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* ✅ ELEMENTOS DESTACADOS EN ROJO */
+.resaltar-palestina {
+  color: #018a21;
+  font-weight: bold;
+}
+
+.resaltar-latido {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.resaltar-gaza {
+  color: #047b20;
+  
+  font-weight: bold;
+}
+
+.cita-especial {
+  color: #2e7d32;
+  font-style: italic;
+}
+.nombre-profeta {
+  color: #2e7d32;
+  font-weight: bold;
+}
+.referencia-allah {
+  color: #2e7d32; /* verde islámico */
+  font-weight: bold;
+}
+
+
+.nombre-rojo {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.cita-roja {
+  color: #dc2626;
+  font-style: italic;
+}
+
+.refran-rojo {
+  color: #dc2626;
+  font-style: italic;
+  font-weight: bold;
+}
+/* ==== COLORES VERDES: ISLÁMICOS Y AUTORIDAD ==== */
+
+/* Referencias a Allah */
+.referencia-allah {
+  color: #2e7d32; /* Verde islámico fuerte */
+  font-weight: bold;
+}
+
+/* Referencias al Profeta Muhammad ﷺ */
+.referencia-profeta {
+  color: #388e3c; /* Verde medio */
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Citas del Corán */
+.cita-coran {
+  color: #1b5e20; /* Verde oscuro */
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+  margin: 0.5em 0;
+}
+
+/* Referencias a libros sagrados */
+.referencia-libro-sagrado {
+  color: #2e7d32;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Citas de autores tipo “— Abdellah Yahyaoui Azuz —” */
+.cita-autor {
+  color: #33691e;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Refrán árabe */
+.refran-arabe {
+  color: #2e7d32;
+  font-style: italic;
+}
+
+/* Nombres de profetas */
+.nombre-profeta {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* ==== COLORES ROJOS: DENUNCIA, INTENSIDAD ==== */
+
+/* Citas normales entre comillas */
+.cita-roja {
+  color: #2e7d32; /* Rojo fuerte */
+  font-style: italic;
+}
+
+/* Nombres de políticos o personajes actuales */
+.nombre-rojo {
+  color: #c62828;
+  font-weight: bold;
+}
+
+/* Palabra clave: Palestina */
+
+
+/* Palabra clave: latido / latidos */
+
+
+/* Palabra clave: Gaza */
+
+
+
+/* ✅ AÑADIR: Estilos para el reproductor de audio */
+.audio-container {
+  margin: 1.5rem 0; /* ✅ CAMBIAR: Reducir margen superior e inferior */
+  text-align: center;
+  padding: 1rem; /* ✅ CAMBIAR: Reducir padding */
+  
+ 
+  border-radius: 12px;
+  position: absolute;
+  margin-top: -675px;
+  z-index: 345;
+  
+}
+
+.audio-titulo {
+  font-family: "Cinzel", serif;
+  font-size: clamp(1.1rem, 2.5vw, 1rem); /* ✅ CAMBIAR: Reducir tamaño */
+  color: #15803d;
+  margin-bottom: 0.8rem; /* ✅ CAMBIAR: Reducir margen inferior */
+  font-weight: 500;
+}
+
+.audio-player {
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  outline: none;
+}
+
+.audio-player::-webkit-media-controls-panel {
+  background-color: #15803d;
+}
+
+/* ✅ AÑADIR: Responsive para tablet (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .relato-container {
+    padding: 1.2rem;
+  }
+
+  .relato-header-top {
+    margin-bottom: 1.2rem;
+  }
+
+  .relato-autor-superior {
+    font-size: clamp(1.3rem, 3.5vw, 1.6rem);
+  }
+
+  .relato-titulo {
+    font-size: clamp(2.2rem, 6vw, 2rem);
+    margin-bottom: 1.8rem;
+  }
+  .audio-container{
+    scale: 0.8;
+  }
+
+  .relato-content {
+    font-size: clamp(1rem, 2.8vw, 1.3rem);
+    padding: 0 1.8rem;
+  }
+
+  .parrafo-relato {
+    font-size: 1.05rem;
+    margin-bottom: 0.55rem;
+    text-indent: 1.4rem;
+  }
+
+  .navegacion-relato {
+    padding: 0.8rem 0;
+  }
+
+  .triangulo {
+    font-size: 1.1rem;
+  }
+
+  .texto-ant,
+  .texto-sig {
+    font-size: 2.1rem;
+  }
+}
+
+/* Responsive para móviles (hasta 768px) */
+@media (max-width: 768px) {
+  .relato-container {
+    padding: 0.5rem;
+  }
+
+  .relato-header-top {
+    margin-bottom: 0.8rem;
+  }
+
+  .relato-autor-superior {
+    font-size: clamp(1rem, 4vw, 1.3rem);
+  }
+
+  .relato-titulo {
+    font-size: clamp(1.4rem, 5vw, 1.8rem);
+    margin-bottom: 0.8rem;
+  }
+
+  .relato-content {
+    font-size: clamp(0.85rem, 2.5vw, 0.95rem);
+    line-height: 1.3;
+    padding: 0 1rem;
+  }
+
+  .parrafo-relato {
+    margin-bottom: 0.6rem;
+    text-indent: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .navegacion-relato {
+    padding: 0.3rem 0;
+  }
+
+  .triangulo {
+    font-size: 1rem;
+  }
+
+  .texto-ant,
+  .texto-sig {
+    font-size: 2.5rem;
+  }
+
+  .audio-container {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    margin-top: 0px;
+    position: relative;
+  }
+
+  .audio-titulo {
+    font-size: 1.2rem;
+  }
+
+  .audio-player {
+    max-width: 100%;
+  }
+}
+
+/* Para pantallas muy pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+  .relato-container {
+    padding: 0.4rem;
+  }
+
+  .relato-content {
+    font-size: 0.8rem;
+    line-height: 1.25;
+    padding: 0 0.8rem;
+  }
+
+  .parrafo-relato {
+    margin-bottom: 0.5rem;
+    text-indent: 0.8rem;
+    font-size: 1.3rem;
+  }
+
+  .relato-titulo {
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+  }
+
+  .navegacion-relato {
+    padding: 0.8rem 0.3rem;
+  }
+  .parrafo-relato.texto-arabe {
+  font-size: 1.3rem;}
+}
+/* 📌 VIDEO + TEXTO */
+.especial-video-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.especial-video-texto .video-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+}
+
+.especial-video-texto .texto-col {
+  flex: 1;
+}
+
+/* 📌 ESTILO GENERAL PARA VIDEO E IMAGEN */
+
+
+
+.especial-media-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* cubre todo el div, puede recortar */
+  border-radius: 8px;
+  display: block;
+}
+
+/* 📌 SOLO IMAGEN FINAL */
+.especial-imagen {
+  width: 90%;
+  height: 60vh;
+  margin: auto;
+
+}
+
+/* 📱 EN MÓVIL SE APILAN */
+@media (max-width: 768px) {
+  .especial-video-texto {
+    flex-direction: column;
+  }
+
+  .especial-media-box {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+  }
+}
+.especial-doble-texto {
+  display: flex;
+  gap: 50px;
+  flex-direction: row-reverse;
+}
+
+.especial-doble-texto .col-arabe {
+  flex: 1;
+  direction: rtl;
+  text-align: right;
+}
+
+.especial-doble-texto .col-espanol {
+  flex: 1;
+  direction: ltr;
+  text-align: left;
+}
+
+/* En móviles se apilan */
+@media (max-width: 768px) {
+  .especial-video-texto,
+  .especial-doble-texto {
+    flex-direction: column;
+  }
+}.especial-media-box {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  border-radius: 12px;
+  box-shadow: 0 -1px 5px rgba(0, 128, 0, 0.4);
+}
+
+.especial-media-box video {
+  width: 100%;
+  height: 100%;
+  object-fit: unset;
+  border-radius: 8px;
+  display: block;
+  margin: 0px;
+  max-width: 100%;
+}
+.cuadro-imagen-final {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(80vw, 80vh); /* tamaño grande pero sin salir del viewport */
+  height: min(80vw, 95vh);
+  border: 2px solid #018a21; /* verde */
+  border-radius: 20px;
+  overflow: hidden; /* para que la imagen respete el borde redondeado */
+  z-index: 2; /* por encima del contenido normal */
+  pointer-events: none; /* no bloquea clics en botones */
+ 
+}
+.anas{
+width: 350px;
+
+margin-left: 1000px;
+}
+.cuadro-imagen-final img {
+  width: 100%;
+  height: 100%;
+   object-fit: cover;/* para que quepa entera sin recortar */
+}
+@media (max-width: 480px){
+  .cuadro-imagen-final{
+     position: relative;
+     top: 0%;
+     
+  left: 0%;
+  transform: translate(0%, 0%);
+   height: min(150vw, 100vh);
+   width: min(94vw, 115vh); 
+  }
+  .anas{
+width: 350px;
+height: auto;
+margin-left: 0px;
+  }
+.caption-texto-arabe p {
+  font-size: 1.4rem; 
+  font-family: 'Amiri', serif;
+
+  text-align: center;
+  line-height: 1;
+}
+}
+  .caption-texto-arabe p {
+font-size: 1.3rem; 
+font-family: 'Amiri', serif;
+
+text-align: center;
+line-height: 1.3;
+font-style: italic;
+font-weight: 300;
+  }
