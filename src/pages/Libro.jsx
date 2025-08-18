@@ -352,6 +352,7 @@ const paginatedPrologo = useMemo(() => {
               <Pagina key={index}>
                 <Relato
                   autor={autor.nombre}
+                   autorId={autor.id}  
                   titulo={autor.titulo}
                   contenido={pageData.content}
                   sectionTitle={pageData.sectionTitle}

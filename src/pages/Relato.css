@@ -24,6 +24,7 @@
   text-align: center;
   line-height: 1.5;
  color: #14532d; /* opcional: un verde profundo que combine */
+ margin-top: -40px;
 }
   
 
@@ -598,23 +599,26 @@ margin-left: 1000px;
 .cuadro-imagen-final img {
   width: 100%;
   height: 100%;
-   object-fit: cover;/* para que quepa entera sin recortar */
+   object-fit: contain;/* para que quepa entera sin recortar */
 }
 @media (max-width: 480px){
   .cuadro-imagen-final{
      position: relative;
      top: 0%;
+    ;
      
-  left: 0%;
+  left: 2%;
   transform: translate(0%, 0%);
    height: min(150vw, 100vh);
    width: min(94vw, 115vh); 
   }
+  
   .anas{
 width: 350px;
 height: auto;
 margin-left: 0px;
   }
+ 
 .caption-texto-arabe p {
   font-size: 1.4rem; 
   font-family: 'Amiri', serif;

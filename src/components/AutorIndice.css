@@ -40,13 +40,14 @@ p.autor-indice-description.texto-arabe{
 }
 
 .autor-indice-titulo {
-  font-size: clamp(2.5rem, 7vw, 3.5rem);
+  font-size: clamp(2.5rem, 7vw, 5rem);
   margin-top: 1rem;
   margin-bottom: 2rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
   color: #b91c1c;
   flex-shrink: 0;
+  FONT-FAMILY: 'Corinthia';
 }
 
 .autor-indice-columns {
@@ -182,7 +183,7 @@ font-weight: 600;
   text-align: center;
   font-weight: 500;
   padding: 0.5rem;
-  font-family: "Cinzel", serif;
+  font-family: 'Cormorant Garamond';
 }
 
 .autor-indice-part-item:hover {

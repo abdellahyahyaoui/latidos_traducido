@@ -232,6 +232,7 @@ const translations = {
    tituloPalabra3: "Hope",
     
     prologo: "Prologue",
+     titulo: "Heartbeats of Hope",
     minombre:"Abdellah Yahyaoui Azuz"
   },
   ar: {
@@ -281,6 +282,7 @@ const translations = {
     tituloPalabra1: "Battements",
     tituloPalabra2: "d'",
    tituloPalabra3: "Espoir",
+   titulo: "Battements d'Espoir",
     
     prologo: "Préface",
      minombre:"Abdellah Yahyaoui Azuz"

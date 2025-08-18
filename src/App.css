@@ -56,7 +56,7 @@ body {
 [dir="rtl"] .encabezado-libro{
   font-family: "Aref Ruqaa", serif;
 }
- p.firma{
+[dir="rtl"] p.firma{
  font-family: "Aref Ruqaa", serif;
 }
 [dir="rtl"] h2.titulo-prologo{

@@ -14,7 +14,7 @@
           {
             "tipo": "texto",
             "content": [
-              "\" إِنَّا لِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ \"",
+              "\"إِنَّا لِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ\"",
               "",
               "Este es mi testamento, mi última carta.",
               "Si estas palabras llegan a ustedes,",
@@ -135,7 +135,7 @@
           },
           {
             "tipo": "imagen",
-            "src": "/imagenes/anas2.jpg",
+            "src": "/imagenes/anas2.png",
             "alt": "Imagen final del capítulo"
           },
           {
