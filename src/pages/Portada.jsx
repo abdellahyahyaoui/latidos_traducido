@@ -23,7 +23,7 @@ export default function Portada({ avanzarPagina, onGoToHome, openContactModal })
         <ContactButton openContactModal={openContactModal} />
       </div>
 
-      <div className="navegacion-relato" style={{ justifyContent: "flex-end" }}>
+      <div className="navegacion-relato" style={{ justifyContent: "flex-end" , marginTop: "-20px"}}>
         <div className="boton-siguiente" onClick={avanzarPagina}>
           <span className="texto-sig">{t("siguiente")}</span> {/* 🔹 traducimos "Siguiente" */}
         </div>

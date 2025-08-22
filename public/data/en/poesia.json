@@ -110,6 +110,47 @@
       ]
     }
   ]
+},
+{
+  "id": 23,
+  "nombre": "Ammar Abdel Aziz",
+  "fragmento": "It is only natural to see the child beneath the wall, crying: 'Father, do not fear.' Death devours his shadow while fear shields the father.",
+  "titulo": "It Is Only Natural",
+  "image": "/imagenes/ammar_abdelaziz.jpg",
+  "description": "Ammar Abdel Aziz is a powerful voice in contemporary Palestinian poetry, reflecting the suffering and hope of his people with an intense and moving style.",
+  "parts": [
+    {
+      "title": "It Is Only Natural",
+      "content": [
+        "It is only natural to see the child beneath the wall,",
+        "crying out: \"Father, do not fear.\"",
+        "Death devours his shadow,",
+        "and his father —seized by dread— shields him with his palm,",
+        "while his fragile fingers fail to repel the bullets.",
+        "Upon the nightly broadcast,",
+        "we witness our death ascend and collapse beneath its hammers,",
+        "weaving shrouds for us each night,",
+        "seventy years have passed and its looms never tire.",
+        "I see death desiring no prey but us,",
+        "as though my very life belonged to its kin and tribes.",
+        "O Time, remember death.",
+        "Seven dwell on the second floor,",
+        "eight stand at the threshold of the house,",
+        "and four children whose mother has perished,",
+        "remain for days without water, without refuge, without a voice,",
+        "without hope… without a supplication to the Lord of manna and solace.",
+        "O Death, prepare thyself,",
+        "for by Allah, they shall no longer come to thee as children,",
+        "but as elders, laden with experience and bitterness.",
+        "Ready thy defense, for the judges, garbed in their verdicts,",
+        "have come before thee indignant and demanding.",
+        "O people of Gaza, after this nothing shall be held against you,",
+        "and by Allah, were it not for you, never would the heavens descend,",
+        "guiding all the worlds."
+      ]
+    }
+  ]
 }
+
 
 ]

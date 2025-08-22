@@ -29,9 +29,12 @@ export default function Prologo({ contenido = [], avanzarPagina, retrocederPagin
           <span className="texto-ant">{t("ui.back")}</span>
         </div>
         {onGoToMainIndex && (
-          <div className="boton-indice-principal" onClick={onGoToMainIndex} title="Ir al Índice Principal">
-            <span className="triangulo rojo">▼</span>
-          </div>
+       <div className="boton-indice-principal" onClick={onGoToMainIndex}>
+  <span className="triangulo rojo">▼</span>
+  <span className="tooltip-indice">{t("IrAlIndicePrincipal")}</span>
+</div>
+
+
         )}
         <div className="boton-siguiente" onClick={avanzarPagina}>
           <span className="texto-sig">{t("siguiente")}</span>

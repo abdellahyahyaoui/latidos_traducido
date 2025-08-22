@@ -17,6 +17,15 @@ body {
   font-family: "Cormorant Garamond", serif;
 }
 
+[dir="rtl"] span.nombre-autor{
+  font-size: 1.6rem;
+}
+
+[dir="rtl"] p.caption-texto-arabe{
+  font-family: "Aref Ruqaa", serif;
+  font-size: 2rem;
+
+}
 [dir="rtl"] h2.indice-titulo{
   font-family: "Aref Ruqaa", serif;
   font-size: 2rem;

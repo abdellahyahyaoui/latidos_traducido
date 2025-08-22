@@ -114,5 +114,46 @@
       }
      
     ]
-  }
+  },
+  {
+  "id": 23,
+  "nombre": "Ammar Abdel Aziz",
+  "fragmento": "Es del todo natural contemplar al niño bajo el muro clamando: 'Padre, no temas'. La muerte devora su sombra y al padre lo ampara el miedo.",
+  "titulo": "Es del todo natural",
+  "image": "/imagenes/ammar_abdelaziz.jpg",
+  "description": "Ammar Abdel Aziz es una voz poderosa de la poesía palestina contemporánea, reflejando el sufrimiento y la esperanza de su pueblo con un estilo intenso y conmovedor.",
+  "parts": [
+    {
+      "title": "Es del todo natural",
+      "content": [
+        "Es del todo natural contemplar al niño bajo el muro,",
+        "clamando: «Padre, no temas».",
+        "La muerte devora su sombra,",
+        "y al padre —preso del espanto— lo ampara con su palma,",
+        "mientras sus frágiles dedos son incapaces de desviar las balas.",
+        "En el noticiario, cada noche,",
+        "contemplamos nuestra propia muerte alzarse y desplomarse con sus mazas,",
+        "tejiéndonos sudarios en cada jornada,",
+        "setenta años han pasado y jamás se agotaron sus telares.",
+        "Veo a la muerte rehusar toda presa salvo a nosotros,",
+        "como si mi vida le perteneciera a su estirpe y a sus tribus.",
+        "¡Oh tiempo!, recuerda la muerte.",
+        "Siete hay en el segundo piso,",
+        "ocho en el umbral de la casa,",
+        "y cuatro niños cuya madre ha muerto,",
+        "quedaron durante días sin agua, sin refugio, sin voz,",
+        "sin esperanza… sin súplica al Señor del maná y del consuelo.",
+        "Oh muerte, disponte,",
+        "pues por Allah que ya no vendrán a ti como niños,",
+        "sino como ancianos, cargados de experiencia y amargura.",
+        "Prepara tu defensa, que los jueces con sus veredictos ungidos,",
+        "se presentaron ante ti airados y demandantes.",
+        "Oh pueblo de Gaza, después de esto nada os será reprochado,",
+        "y por Allah, de no ser por vosotros, jamás descenderían los cielos,",
+        "que guían a todos los mundos."
+      ]
+    }
+  ]
+}
+
 ]

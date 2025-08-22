@@ -215,14 +215,14 @@ export default function AutorIndice({ autor, irAPagina, onGoToHome, autorPartGlo
               <div
                 className="scroll-indicator clickeable"
                 onClick={handleLeftTriangleClick}
-                title={leftTriangleDirection === "down" ? "Scroll hacia abajo" : "Scroll hacia arriba"}
+                title={leftTriangleDirection === "down" ? "" : ""}
               >
                 {leftTriangleDirection === "down" ? "▼" : "▲"}
               </div>
             )}
           </div>
 
-          <div className={`autor-indice-right-column ${!showScrollIndicatorRight ? "no-scroll" : ""}`}>
+          <div className={`autor-indice-right-column ${!showScrollIndicatorRight ? "" : ""}`}>
             <div className="author-header">
               {autor.image && (
                 <img
@@ -247,13 +247,15 @@ export default function AutorIndice({ autor, irAPagina, onGoToHome, autorPartGlo
   {autor.description || "Descripción no disponible"}
 </p>
               {showScrollIndicatorRight && (
-                <div
-                  className="scroll-indicator clickeable"
-                  onClick={handleRightTriangleClick}
-                  title={rightTriangleDirection === "down" ? "Scroll hacia abajo" : "Scroll hacia arriba"}
-                >
-                  {rightTriangleDirection === "down" ? "▼" : "▲"}
-                </div>
+               <div
+  className="scroll-indicator clickeable"
+  onClick={handleRightTriangleClick}
+>
+  {rightTriangleDirection === "down" ? "▼" : "▲"}
+  <span className="custom-tooltip">
+    {rightTriangleDirection === "down" ? "" : ""}
+  </span>
+</div>
               )}
             </div>
 

@@ -7,10 +7,11 @@ export default function LanguageSelectorButton() {
   const { language, setLanguage } = useLanguage()
 
   const languages = [
+     { code: "ar", img: "/flags/ar.png" },
     { code: "es", img: "/flags/es.png" },
     { code: "en", img: "/flags/en.png" },
     { code: "fr", img: "/flags/fr.png" },
-    { code: "ar", img: "/flags/ar.png" },
+   
   ]
 
   const chooseLanguage = (code) => {

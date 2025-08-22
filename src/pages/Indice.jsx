@@ -122,7 +122,7 @@ export default function Indice({ autores, onGoToHome, irAPagina }) {
               <div
                 className="scroll-indicator clickeable"
                 onClick={() => handleTriangleClick("libro", libroListRef)}
-                title={triangleDirections.libro === "down" ? t("ScrollAbajo") : t("ScrollArriba")}
+                title={triangleDirections.libro === "down" ? t("") : t("")}
               >
                 {triangleDirections.libro === "down" ? "▼" : "▲"}
               </div>
@@ -150,7 +150,7 @@ export default function Indice({ autores, onGoToHome, irAPagina }) {
               <div
                 className="scroll-indicator clickeable"
                 onClick={() => handleTriangleClick("cartas", cartasListRef)}
-                title={triangleDirections.cartas === "down" ? t("ScrollAbajo") : t("ScrollArriba")}
+                title={triangleDirections.cartas === "down" ? t("") : t("")}
               >
                 {triangleDirections.cartas === "down" ? "▼" : "▲"}
               </div>
@@ -178,7 +178,7 @@ export default function Indice({ autores, onGoToHome, irAPagina }) {
               <div
                 className="scroll-indicator clickeable"
                 onClick={() => handleTriangleClick("poesia", poesiaListRef)}
-                title={triangleDirections.poesia === "down" ? t("ScrollAbajo") : t("ScrollArriba")}
+                title={triangleDirections.poesia === "down" ? t("") : t("")}
               >
                 {triangleDirections.poesia === "down" ? "▼" : "▲"}
               </div>

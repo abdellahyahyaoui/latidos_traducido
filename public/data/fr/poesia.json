@@ -107,5 +107,46 @@
         ]
       }
     ]
-  }
+  },
+  {
+  "id": 23,
+  "nombre": "Ammar Abdel Aziz",
+  "fragmento": "Il est tout naturel de voir l'enfant sous le mur, criant : 'Père, n'aie pas peur.' La mort dévore son ombre tandis que la peur protège le père.",
+  "titulo": "Il est tout naturel",
+  "image": "/imagenes/ammar_abdelaziz.jpg",
+  "description": "Ammar Abdel Aziz est une voix majeure de la poésie palestinienne contemporaine, reflétant la souffrance et l'espoir de son peuple avec un style intense et poignant.",
+  "parts": [
+    {
+      "title": "Il est tout naturel",
+      "content": [
+        "Il est tout naturel de voir l'enfant sous le mur,",
+        "criant : « Père, n’aie pas peur. »",
+        "La mort dévore son ombre,",
+        "et le père —saisi de peur— le protège de sa paume,",
+        "tandis que ses doigts frêles sont incapables de détourner les balles.",
+        "Au journal de la nuit,",
+        "nous voyons notre mort s’élever puis s’effondrer sous ses marteaux,",
+        "tissant pour nous des linceuls chaque soir,",
+        "soixante-dix ans ont passé et ses métiers ne se sont jamais lassés.",
+        "Je vois la mort ne vouloir de proie que nous,",
+        "comme si ma vie appartenait à sa lignée et à ses tribus.",
+        "Ô Temps, souviens-toi de la mort.",
+        "Sept demeurent au deuxième étage,",
+        "huit au seuil de la maison,",
+        "et quatre enfants dont la mère est décédée,",
+        "restent des jours entiers sans eau, sans refuge, sans voix,",
+        "sans espoir… sans prière au Seigneur de la manne et de la consolation.",
+        "Ô Mort, prépare-toi,",
+        "car par Allah, ils ne viendront plus à toi comme des enfants,",
+        "mais tels des vieillards, chargés d’expérience et d’amertume.",
+        "Prépare ta défense, car les juges, vêtus de leurs sentences,",
+        "se sont présentés devant toi, courroucés et exigeants.",
+        "Ô peuple de Gaza, après cela rien ne pourra vous être reproché,",
+        "et par Allah, sans vous, jamais les cieux ne seraient descendus,",
+        "guidant l’univers entier."
+      ]
+    }
+  ]
+}
+
     ]

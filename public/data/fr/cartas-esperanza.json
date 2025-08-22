@@ -176,8 +176,81 @@
           }
         ]
       }
+
     ]
   },
+  {
+  "id": 18,
+  "nombre": "Mahmoud Zaki Al-Amoudi",
+  "fragmento": "Que la paix et la miséricorde d'Allah soient sur vous. Deux mots, un conseil et une supplication… cela peut faire un peu mal, mais il est nécessaire de le dire. Subḥan Allah… depuis dix jours je passe d’une maladie à une autre. Par la grâce d’Allah Tout-Puissant, je ressens comme s’Il voulait nous emmener vers Lui, purs, avec des cœurs blancs, sans péchés.",
+  "titulo": "Non ! Notre Seigneur est avec nous, Il nous guidera",
+  "image": "/imagenes/mahmoud_zaki.jpg",
+  "description": "Mahmoud Zaki Al-Amoudi exprime avec sincérité la fragilité de l’homme face à la maladie et au siège, et l’espoir en Allah, reflétant la résilience spirituelle du peuple palestinien.",
+  "parts": [
+    {
+      "title": "Paroles du cœur",
+      "content": [
+         "",
+        "",
+        "Que la paix et la miséricorde d'Allah soient sur vous.",
+        "Deux mots, un conseil et une supplication… cela peut faire un peu mal, mais il est nécessaire de le dire.",
+        "Subḥan Allah… depuis dix jours je passe d’une maladie à une autre.",
+        " Par la grâce d’Allah Tout-Puissant, je ressens comme s’Il voulait nous emmener vers Lui, purs,",
+        " avec des cœurs blancs, sans péchés. Ô Seigneur de l’univers, Amen !",
+        "Ne vous fâchez pas… mais pour la première fois je vais le dire : ",
+        "ne vous accrochez pas trop à nous. Essayez de réduire votre suivi si étroit.",
+        "Je ne parle pas d’une personne en particulier ; je parle de moi-même, en général.",
+        "Allah nous suffit. À tout moment—si Allah le veut—nous pourrions partir.",
+        " La situation est très difficile… extrêmement difficile. Croyez-moi :",
+        " nous vivons ce qu’aucun œil n’a vu, qu’aucune oreille n’a entendu, et qui n’a jamais traversé l’esprit d’un être humain.",
+        "Par Allah, frères, je soupçonne que ce qui est utilisé contre nous n’est pas normal.",
+        " Je le jure par Allah ! C’est comme une petite bombe nucléaire.",
+        "Ce n’est pas un mauvais présage envers Allah, ni du pessimisme.",
+        "Mais nous, par Allah, même si nous sommes assiégés—et nous le sommes déjà, sur le bord de mer—même la mer de notre côté est devenue mort.",
+        "Je ne dis pas 'la mer devant et l’ennemi derrière.' Non… l’ennemi vient de la mer, de la terre et du ciel, de partout.",
+        "Pourtant, dans les moments les plus durs, nous continuons à garder la foi et à dire : Non ! Notre Seigneur est avec nous, Il nous guidera.",
+        "Priez pour nous… car au milieu de cette trahison et de cette conspiration, je crois qu’Allah nous couvrira de Sa miséricorde.",
+        "Pardonnez-moi… mais ces mots devaient être prononcés."
+      ]
+    }
+  ]
+}
+,
+  {
+  "id": 17,
+  "nombre": "Muhammad Al-Sharif",
+  "fragmento": "Ô monde, sauvez ce qu’il reste encore de Gaza !",
+  "titulo": "L'appel de Muhammad Al-Sharif pour sauver Gaza",
+  "description": "Un appel urgent de Muhammad Al-Sharif exhortant le monde à agir face à la menace qui pèse sur Gaza. Il dénonce la souffrance d’un million de personnes prises entre le feu et la destruction et appelle l’humanité, les Arabes et la conscience mondiale à ne pas rester silencieux.",
+  "image": "/imagenes/muhammad_al_sharif.jpg",
+  "parts": [
+      {
+        "title": "sauvez ce qu’il reste encore de Gaza !",
+  "content": [
+    "",
+    "Ô monde, sauvez ce qu’il reste encore de Gaza ! L’occupation menace d’envahir une ville où vivent près d’un million d’êtres humains :",
+    "des enfants, des femmes et des vieillards sans défense. Aujourd’hui, Gaza implore secours avant d’être effacée de la face de la terre.",
+    "Ô monde ! Ô humanité ! Ô Arabes ! Ô conscience ! Ô dignité !",
+    "💥 Gaza crie : elle est en train d’être effacée de l’existence !",
+    "Un million de vies, désormais prises entre le feu et le fer.",
+    "Un million de cœurs tremblent sous les bombes et la destruction.",
+    "🛑 Ô monde, levez-vous ! Réveillez-vous ! Assez de ce silence honteux !",
+    "🎤 Ô Arabes ! Jusqu’à quand regarderez-vous comme si vous ne voyiez rien ?",
+    "Ô humanité ! Si vous ne vous réveillez pas maintenant… alors quand ?",
+    "Ô conscience ! Si vous ne bougez pas aujourd’hui… quand agirez-vous ?",
+    "📢 Criez ! Protestez ! Ne laissez pas Gaza disparaître !",
+    "Élevez votre voix avant que son nom tout entier ne soit inscrit dans le registre éternel des peuples disparus !",
+    "Gaza vous supplie… Ô Arabes ! Ô croyants ! Ô habitants de la terre ! Ô musulmans !",
+    "Elle vous supplie d’entendre son cri avant qu’il ne soit réduit au silence pour toujours.",
+    "Elle vous supplie de sauver un million de personnes, aujourd’hui sous la menace, sous les bombardements, sous le feu… attendant la mort.",
+    "Ô habitants de la terre ! Ô conscience de l’humanité !",
+    "Ses enfants pleurent, ses maisons s’effondrent et ses tombes s’ouvrent sans pitié !",
+    "☎️ Levez-vous ! Réveillez-vous ! Élevez votre voix ! Agissez ! Ne la laissez pas seule !",
+    "Chaque seconde de silence… c’est une vie qui s’éteint… c’est un avenir qui disparaît.",
+    "🔊 Écoutez les cris de Gaza avant que sa voix ne s’éteigne à jamais !"
+  ]
+}]}
+,
   {
     "id": 3,
     "nombre": "Khaled Abu Huwaishel",
@@ -1554,5 +1627,168 @@
         ]
       }
     ]
-  }
+  },
+  {
+  "id": 13,
+  "nombre": "Hazem Suleiman",
+  "fragmento": "Réveillez-vous, monde couvert de honte !",
+  "titulo": "Réveillez-vous, monde hypocrite !",
+  "description": "Un cri puissant du journaliste palestinien Hazem Suleiman. Il dénonce le silence complice du monde face à l’assassinat de plus de 300 journalistes à Gaza et accuse l’hypocrisie mondiale d’être complice du crime contre la vérité.",
+  "image": "/imagenes/hazem_suleiman.jpg",
+  "social": {
+    "donation": "https://www.gofundme.com/f/mulham-charity-team?utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=copy_link&lang=en_US&fbclid=PAQ0xDSwMQj2pleHRuA2FlbQIxMQABp3k_eZFM0Eh3uhDbMZPY83sdHkwASMeUmxP_-rKe-bq34de5AsHNWd9BaK2__aem_0DGs9N7qK3Cl-JHO3lIXzQ",
+    "instagram": "https://www.instagram.com/hazmaslman?igsh=MWYwenRub3p2bmt6Yw==",
+    "whatsapp": "00970592186728"
+  },
+  "parts": [
+    {
+      "title": "Réveillez-vous, monde hypocrite !",
+      "content": [
+        "",
+        "Réveillez-vous, monde couvert de honte !",
+        "Oui, ils ont tué Anas Al-Sharif.",
+        "Oui, ils ont tué Mohammed Qreiqa.",
+        "Et avec eux, des dizaines de journalistes.",
+        "Des héros de la parole.",
+        "Tombés sur le chemin du sacrifice et de l’éternité.",
+        "",
+        "L’occupant fut le bourreau.",
+        "Mais il n’était pas le seul criminel.",
+        "Ils sont aussi morts de votre silence assassin.",
+        "De votre lâcheté.",
+        "D’un monde qui a préféré le confort.",
+        "Plutôt que de défendre l’opprimé.",
+        "",
+        "Plus de 300 journalistes sont tombés !",
+        "Ils portaient des caméras et des plumes, pas des armes.",
+        "Et vous, que faisiez-vous ?",
+        "Vous écriviez : « Mon Dieu ! »",
+        "« Il n’y a de force qu’en Dieu. »",
+        "« Reposez en paix, héros. »",
+        "Certains ont même dit :",
+        "« Je n’y ai pas cru en lisant la nouvelle. »",
+        "",
+        "Vraiment, vous n’y croyiez pas ?",
+        "Où étiez-vous quand l’occupant a menacé Anas Al-Sharif publiquement ?",
+        "Où quand ils ont menacé Hassan Asleh et d’autres ?",
+        "Vous saviez que leur vie était en danger.",
+        "Qu’ils pouvaient mourir chaque jour.",
+        "Mais vous avez gardé le silence.",
+        "Pas une seule manifestation.",
+        "Pas un mot de pression réelle.",
+        "Pas une voix levée pour arrêter le tueur.",
+        "",
+        "Vous vous êtes tus…",
+        "Et qu’attendiez-vous ?",
+        "Que le criminel accomplisse ses menaces.",
+        "Sous vos yeux indifférents.",
+        "Sous vos commentaires glacés.",
+        "",
+        "Aujourd’hui, leur sang crie à vos visages :",
+        "Vous êtes complices du crime !",
+        "Vous êtes de faux témoins !",
+        "Vous êtes le voile du massacre !",
+        "",
+        "Écoutez, monde hypocrite !",
+        "Vous faites la même chose avec Saleh Al-Ja’frawi.",
+        "Nous savons tous que son nom est sur la liste rouge.",
+        "Que sa vie ne tient qu’à un fil.",
+        "Et pourtant, vous répétez le même silence.",
+        "Les mêmes phrases creuses.",
+        "Le même mépris.",
+        "",
+        "J’écris cette lettre comme un cri.",
+        "Pour que vous n’ayez pas l’audace de feindre la surprise.",
+        "Quand la nouvelle d’un autre martyre arrivera.",
+        "",
+        "Ce silence n’est pas de la neutralité.",
+        "C’est de la complicité.",
+        "C’est de la dissimulation.",
+        "C’est un crime partagé.",
+        "",
+        "Gaza saigne.",
+        "Les gardiens de la vérité tombent un par un.",
+        "Jusqu’à quand cacherez-vous votre lâcheté ?",
+        "Jusqu’à quand vous réfugierez-vous derrière des condoléances vides ?"
+      ]
+    }
+  ]
+},
+{
+  "id": 14,
+  "nombre": "Sara Zaqout",
+  "fragmento": "Je l’ai peint à un moment où l’espoir semblait lointain et où le son de la faim était plus fort que les mots. J’ai essayé d’exprimer le sentiment d’un enfant affamé et d’un compagnon solitaire.",
+  "titulo": "Une partie de mon âme",
+  
+  "description": "Ce tableau porte une partie de mon âme, ce ne sont pas seulement des couleurs sur une toile — c’est la peur, la faim, la douleur et le silence transformés en art. Je l’ai peint à un moment où l’espoir semblait lointain et où le son de la faim était plus fort que les mots. J’ai essayé de capturer le sentiment d’un enfant affamé et de son seul compagnon — un chien affamé comme lui. Gaza traverse une famine créée par l’homme. Voilà à quoi cela ressemble. Je suis fière de ce tableau parce qu’il exprime ce que je ne peux parfois pas dire.",
+  "social": {
+    "donation": "https://chuffed.org/project/118257-saras-winter-initiative?fbclid=PAQ0xDSwMSud1leHRuA2FlbQIxMAABp1nRaoJAVLtmrF6eAWjzfYCuuTuPW6A60ZsrH-PJiJnM0nqBGuIMtU-i1Xtj_aem_eo3VOCiKiJ6GzOOYUV5EPA",
+    "instagram": "https://www.instagram.com/sara.a.zaqout?igsh=MWhpYmxncjJ3Njkz"},
+  "image": "/imagenes/sara2.jpg",
+  "parts": [
+    {
+      "title": "Un enfant affamé et un compagnon solitaire.",
+      "especial": true,
+      "pages": [
+        {
+          "tipo": "video",
+          "video": "/videos/sara.mp4"
+        },
+        {
+          "tipo": "imagen",
+          "src": "/imagenes/sara1.jpg",
+          "alt": "Image finale du chapitre"
+        },
+        {
+          "tipo": "imagen",
+          "src": "/imagenes/sara3.jpg",
+          "alt": "Imagen final del capítulo"
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "id": 15,
+  "nombre": "Mahmoud Saber Basal",
+  "fragmento": "Il est tout naturel de voir l'enfant sous le mur, criant : 'Père, n'aie pas peur.' La mort dévore son ombre tandis que la peur protège le père.",
+  "titulo": "Il est tout naturel",
+  "image": "/imagenes/mahmoud_saber.jpg",
+  "description": "Ammar Abdel Aziz est une voix majeure de la poésie palestinienne contemporaine, reflétant la souffrance et l'espoir de son peuple avec un style intense et poignant.",
+  "parts": [
+    {
+      "title": "Il est tout naturel",
+      "content": [
+        "Il est tout naturel de voir l'enfant sous le mur,",
+        "criant : « Père, n’aie pas peur. »",
+        "La mort dévore son ombre,",
+        "et le père —saisi de peur— le protège de sa paume,",
+        "tandis que ses doigts frêles sont incapables de détourner les balles.",
+        "Au journal de la nuit,",
+        "nous voyons notre mort s’élever puis s’effondrer sous ses marteaux,",
+        "tissant pour nous des linceuls chaque soir,",
+        "soixante-dix ans ont passé et ses métiers ne se sont jamais lassés.",
+        "Je vois la mort ne vouloir de proie que nous,",
+        "comme si ma vie appartenait à sa lignée et à ses tribus.",
+        "Ô Temps, souviens-toi de la mort.",
+        "Sept demeurent au deuxième étage,",
+        "huit au seuil de la maison,",
+        "et quatre enfants dont la mère est décédée,",
+        "restent des jours entiers sans eau, sans refuge, sans voix,",
+        "sans espoir… sans prière au Seigneur de la manne et de la consolation.",
+        "Ô Mort, prépare-toi,",
+        "car par Allah, ils ne viendront plus à toi comme des enfants,",
+        "mais tels des vieillards, chargés d’expérience et d’amertume.",
+        "Prépare ta défense, car les juges, vêtus de leurs sentences,",
+        "se sont présentés devant toi, courroucés et exigeants.",
+        "Ô peuple de Gaza, après cela rien ne pourra vous être reproché,",
+        "et par Allah, sans vous, jamais les cieux ne seraient descendus,",
+        "guidant l’univers entier."
+      ]
+    }
+  ]
+}
+
+
 ]

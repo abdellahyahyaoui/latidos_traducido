@@ -17,7 +17,7 @@ p.autor-indice-description.texto-arabe{
 }
 .autor-indice-subtitulo.texto-arabe,
 .autor-indice-part-item.texto-arabe {
-  font-family: "Amiri quran", serif;
+  font-family: "Aref Ruqaa", serif;
   direction: rtl;
   text-align: center;
   /* font-size: 1.9rem; ajusta según tu diseño */
@@ -432,7 +432,7 @@ font-weight: 600;
   .autor-indice-left-column,
   .autor-indice-right-column {
     padding: 1rem;
-    width: calc(112% - 1.5rem);
+    width: -webkit-fill-available;
     max-width: 350px;
     margin: 0 auto;
     margin-left: -10px;

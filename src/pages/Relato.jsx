@@ -295,6 +295,38 @@ export default function Relato(props) {
           </div>
         )
       }
+      case "video":
+  return (
+    <div>
+      <div className="cuadro-video-final">
+        <VideoPlayer
+          src={page.video || page.src || "/videos/placeholder.mp4"}
+          title={page.title || ""}
+        />
+      </div>
+
+      {/* {page.caption && (
+        <div className="anas">
+          {Array.isArray(page.caption) ? (
+            <div className="caption-texto-arabe">
+              {page.caption.map((line, index) => (
+                <p
+                  key={index}
+                  dangerouslySetInnerHTML={{ __html: procesarTexto(line) }}
+                />
+              ))}
+            </div>
+          ) : (
+            <p
+              className="caption-texto-arabe"
+              dangerouslySetInnerHTML={{ __html: procesarTexto(page.caption) }}
+            />
+          )}
+        </div>
+      )} */}
+    </div>
+  )
+
 
       case "imagen":
         return (
@@ -385,9 +417,11 @@ export default function Relato(props) {
         <div className="boton-anterior" onClick={retrocederPagina}>
           <span className="texto-ant">{t("ui.back")}</span>
         </div>
-        <div className="boton-indice-principal" onClick={onGoToMainIndex} title={t("irAlIndicePrincipal")}>
-          <span className="triangulo rojo">▼</span>
-        </div>
+       <div className="boton-indice-principal" onClick={onGoToMainIndex}>
+  <span className="triangulo rojo">▼</span>
+  <span className="custom-tooltip">{t("IrAlIndicePrincipal")}</span>
+</div>
+
         <div className="boton-siguiente" onClick={avanzarPagina}>
           <span className="texto-sig">{t("siguiente")}</span>
         </div>
